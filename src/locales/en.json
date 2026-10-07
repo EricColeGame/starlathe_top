@@ -43,288 +43,414 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the Starlathe basics fast: tune your controls, finish the intro sequence, and understand the explore-gather-build loop before you spend a single credit."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Starting Ship",
+          "description": "Compare Starlathe starter hulls for mining, trading, and combat so your first purchase matches the way you actually want to play."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Fastest Progression",
+          "description": "Follow the most efficient Starlathe upgrade path and unlock better ships, bigger cargo holds, and new sectors in your first few sessions."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Starlathe."
+          "title": "Best Mining Spots",
+          "description": "Find high-yield asteroid fields and resource nodes in Starlathe, then refine raw ore into the alloys your fleet actually needs."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Starlathe Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Galaxy Economy",
+        "Fleet Builds",
+        "Exploration"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Starlathe Beginner Guide",
+          "description": "Everything new commanders need, from controls and the intro sequence to the core explore-gather-build loop.",
+          "href": "/guide/starlathe-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Starlathe Galaxy & Economy",
+          "description": "How extraction, refining, production, and logistics chains turn raw ore into steady credits.",
+          "href": "/mechanics/starlathe-galaxy"
+        },
+        {
+          "badge": "Popular",
+          "title": "Starlathe Exploration",
+          "description": "Survey new sectors, find high-yield nodes, and open trade routes across the living galaxy.",
+          "href": "/mechanics/starlathe-exploration"
+        },
+        {
+          "badge": "New",
+          "title": "Starlathe Characters & Roles",
+          "description": "Ship roles, synergies, and team-building tips for assembling a fleet that covers every job.",
+          "href": "/characters/starlathe-characters"
+        },
+        {
+          "badge": "Popular",
+          "title": "Starlathe Progression",
+          "description": "The fastest upgrade path through ships, cargo, stations, and the wider galaxy.",
+          "href": "/progression/starlathe-progression"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Starlathe Controls",
+          "description": "Keybinds, gamepad setup, and remapping tips for smoother piloting and combat.",
+          "href": "/controls/starlathe-controls"
+        },
+        {
+          "badge": "New",
+          "title": "Starlathe Features",
+          "description": "A breakdown of the core mechanics and which systems deserve your attention first.",
+          "href": "/mechanics/starlathe-features"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Starlathe Updates",
+          "description": "How to track every patch, balance change, and Early Access content drop.",
+          "href": "/updates/starlathe-updates"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Starlathe Community",
+          "description": "Where to find fellow commanders, share fleet builds, and follow the latest news.",
+          "href": "/community/starlathe-community"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Starlathe?",
       "paragraphs": [
-        "Starlathe is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Starlathe is a 2D top-down space simulation game from Astraeon Interactive, currently in Early Access on PC. You command a growing fleet across a living galaxy, mining asteroids, running trade routes, building stations, and fighting for control of contested sectors.",
+        "The galaxy keeps evolving even while you are away: factions expand, markets shift, and opportunities open and close on their own. Whether you want to run a quiet mining operation, corner a trade route, or field a battle fleet, Starlathe gives you the systems to build your own path."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Astraeon Interactive"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Space Simulation"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Sectors",
+          "value": "150"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Trade Goods",
+          "value": "50+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Active Codes",
+          "value": "0"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Release",
+          "value": "Early Access"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Starlathe Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master the Starlathe galaxy with guides to ships, trading, mining, factions, fleet builds, and station management, plus the latest Early Access updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Starlathe Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/starlathe-codes",
-          "displayType": "code-box",
+          "name": "Starlathe Beginner Guide",
+          "description": "A beginner-friendly guide covering the first steps in Starlathe, including choosing a starting path, basic controls, exploration, mining, trading, and combat preparation. This module helps new players quickly understand the game's core systems.",
+          "href": "/guide/starlathe-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Tune controls, display, and audio in the settings menu"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Complete the introductory sequence to learn the core loop"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Sweep your starting sector for early resources and routes"
+            },
+            {
+              "label": "4",
+              "detail": "Bank your progress and credits before you log off"
+            },
+            {
+              "label": "5",
+              "detail": "Set one clear goal for your next Starlathe session"
+            },
+            {
+              "label": "6",
+              "detail": "Read the in-game codex entries for quick answers"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/starlathe-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Starlathe Ships Guide",
+          "description": "A detailed overview of ships, fleet building, ship roles, upgrades, and equipment choices. Players can learn how to create mining fleets, trading fleets, combat groups, and larger battle formations.",
+          "href": "/mechanics/starlathe-gameplay",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Mining",
+              "detail": "Dedicated ore ships with large holds and mining lasers"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Trading",
+              "detail": "High-cargo freighters built for safe, profitable trade routes"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Combat",
+              "detail": "Warships that screen your fleet and hold contested sectors"
+            },
+            {
+              "label": "Scouts",
+              "detail": "Fast, low-signature hulls for surveying new systems"
+            },
+            {
+              "label": "Support",
+              "detail": "Repair and logistics ships that keep a fleet flying"
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Hull, shield, and engine modules that scale with your credits"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/starlathe-tier-list",
-          "displayType": "tier-grid",
+          "name": "Starlathe Trading Guide",
+          "description": "Explains the game's economy systems, resource chains, trading routes, production networks, and ways to earn credits efficiently. This section targets players searching for Starlathe economy and money-making strategies.",
+          "href": "/mechanics/starlathe-galaxy",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Raw Ore",
+              "detail": "Cheap to buy at mining hubs and the base of every production chain"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Refined Alloy",
+              "detail": "Higher value after refining, demanded by shipyards and stations"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Fuel Cells",
+              "detail": "Consumed by every fleet, so demand stays steady all game"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Luxury Goods",
+              "detail": "High-margin cargo for long routes into wealthy core sectors"
+            },
+            {
+              "label": "Trade Routes",
+              "detail": "Buy low in production sectors, sell high where supply is thin"
+            },
+            {
+              "label": "Market Intel",
+              "detail": "Watch faction wars and shortages to time your best sales"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/starlathe-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Starlathe Mining Guide",
+          "description": "Covers asteroid mining, resource gathering, refining materials, salvage operations, and industrial progression. It helps players optimize early and mid-game resource production.",
+          "href": "/mechanics/starlathe-exploration",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Scan asteroid fields for high-yield ore nodes"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Fit a mining laser and enough cargo space for the run"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Extract ore before the field depletes or rivals arrive"
+            },
+            {
+              "label": "4",
+              "detail": "Haul raw material back to the nearest refinery"
+            },
+            {
+              "label": "5",
+              "detail": "Refine ore into alloys that shipyards will pay for"
+            },
+            {
+              "label": "6",
+              "detail": "Reinvest credits into bigger rigs and better scanners"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/starlathe-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Starlathe Factions Guide",
+          "description": "Introduces the galaxy's factions, reputation systems, wars, alliances, and how player choices influence the living universe. This module supports searches related to faction mechanics and galaxy politics.",
+          "href": "/progression/starlathe-quests",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Empires",
+              "detail": "Major powers that control core sectors and set the laws"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Pirates",
+              "detail": "Raiders who tax trade routes and prey on lone haulers"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Merchants",
+              "detail": "Trade guilds whose contracts pay in credits and reputation"
+            },
+            {
+              "label": "Rep",
+              "detail": "Standing earned through missions, trade, and combat"
+            },
+            {
+              "label": "Alliances",
+              "detail": "Pacts that open shared docks, escorts, and markets"
+            },
+            {
+              "label": "Wars",
+              "detail": "Sector conflicts that redraw borders and shift prices"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/starlathe-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Starlathe Fleet Build Tier List",
+          "description": "A ranking-style module comparing useful fleet setups, ship combinations, combat roles, and recommended builds for different playstyles. It targets players looking for the best fleet strategies.",
+          "href": "/characters/starlathe-characters",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "S",
+              "detail": "Balanced battleship fleets - strong defense with reliable damage"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "A",
+              "detail": "Missile cruiser groups - burst damage from long range"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "B",
+              "detail": "Frigate swarms - cheap, fast escorts for early sectors"
+            },
+            {
+              "label": "C",
+              "detail": "Unarmed freighters - huge cargo, but need a real escort"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Starlathe Stations Guide",
+          "description": "Provides information about station construction, base management, defenses, production facilities, and expanding influence across sectors. This module covers the game's building and management gameplay.",
+          "href": "/mechanics/starlathe-simulation",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Shipyard",
+              "detail": "Build, repair, and refit hulls without leaving your sector"
+            },
+            {
+              "label": "Refinery",
+              "detail": "Turn raw ore into alloys and higher-value goods"
+            },
+            {
+              "label": "Defense",
+              "detail": "Turrets and shields that protect your production lines"
+            },
+            {
+              "label": "Storage",
+              "detail": "Warehouses that let you stockpile before a price spike"
+            },
+            {
+              "label": "Research",
+              "detail": "Unlock better modules, hulls, and production chains"
+            },
+            {
+              "label": "Trade Hub",
+              "detail": "Docks that attract NPC traders and steady income"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Starlathe Updates and Roadmap",
+          "description": "Tracks Early Access updates, planned features, new ships, balance changes, and future development progress. It gives players a place to follow official game improvements.",
+          "href": "/updates/starlathe-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance tweaks and fixes shipped to the live build"
+            },
+            {
+              "label": "New Ships",
+              "detail": "Fresh hulls and modules added to the shipyard"
+            },
+            {
+              "label": "Balance",
+              "detail": "Weapon, economy, and fleet changes that shift the meta"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Planned features and systems coming in Early Access"
+            },
+            {
+              "label": "Betas",
+              "detail": "Optional test builds you can opt into on Steam"
+            },
+            {
+              "label": "Fixes",
+              "detail": "Crash, save, and performance fixes from hotfixes"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Starlathe.",
+      "title": "Starlathe FAQ",
+      "description": "Quick answers to the most common Starlathe questions from new commanders.",
       "items": [
         {
           "question": "What is Starlathe?",
-          "answer": "Starlathe is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Starlathe is a 2D top-down space simulation game from Astraeon Interactive, in Early Access on PC. You mine, trade, build stations, and command fleets across a living galaxy that keeps evolving while you are offline."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Starlathe free to play?",
+          "answer": "No. Starlathe is a paid PC game sold on Steam, not a free-to-play title, so there are no redeem codes or in-game cash shop. Buy it once on Steam and you are in."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What should I do first in Starlathe?",
+          "answer": "Start with the Starlathe beginner guide: tune your controls, finish the intro sequence, and learn the explore-gather-build loop before spending credits on a second ship."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Can I play Starlathe offline?",
+          "answer": "Starlathe runs on PC through Steam. The living galaxy simulation continues around you, so check the latest Starlathe updates before long breaks to see what changed in your sectors."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Starlathe have multiplayer?",
+          "answer": "Starlathe is built around a single-player living galaxy where factions, markets, and fleets act on their own. Follow official Starlathe channels for any future multiplayer plans."
         }
       ]
     },
