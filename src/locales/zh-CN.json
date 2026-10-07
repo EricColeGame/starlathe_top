@@ -1,1 +1,534 @@
-{}
+{
+  "site": {
+    "name": "Starlathe Wiki",
+    "shortName": "Starlathe",
+    "tagline": "飞船、贸易与银河探索指南",
+    "description": "Starlathe Wiki 提供完整的太空模拟攻略、飞船配置、贸易技巧、舰队策略、探索信息，以及玩家所需的一切。",
+    "legalNotice": "非官方粉丝 Wiki。由玩家打造，为玩家服务。"
+  },
+  "nav": {
+    "home": "首页",
+    "menu": "菜单",
+    "toggleTheme": "切换主题",
+    "guide": "指南",
+    "mechanics": "机制",
+    "characters": "角色",
+    "progression": "进阶",
+    "updates": "更新",
+    "community": "社区",
+    "controls": "操作"
+  },
+  "home": {
+    "meta": {
+      "title": "Starlathe Wiki - 太空模拟、飞船与贸易指南",
+      "description": "Starlathe Wiki 提供完整的太空模拟攻略、飞船配置、贸易技巧、舰队策略、探索信息，以及玩家所需的一切。"
+    },
+    "hero": {
+      "eyebrow": "鲜活的银河太空模拟",
+      "title": "Starlathe Wiki",
+      "description": "Starlathe 是一款 2D 俯视角太空模拟游戏，玩家可指挥飞船、组建舰队、交易资源、探索鲜活的银河，并影响一个即使你离线也持续演化的宇宙。",
+      "stats": [
+        "150 个可探索星区",
+        "50+ 种贸易商品",
+        "0 个有效兑换码",
+        "抢先体验更新"
+      ],
+      "primaryCta": "新手指南",
+      "secondaryCta": "飞船与贸易指南",
+      "tertiaryCta": "有效兑换码",
+      "videoLabel": "官方媒体"
+    },
+    "updates": {
+      "title": "最新更新",
+      "browse": "浏览全部攻略",
+      "viewAll": "查看全部"
+    },
+    "start": {
+      "eyebrow": "从这里开始",
+      "title": "你的 Starlathe 之旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "新手指南",
+          "description": "快速掌握 Starlathe 基础：调整操作、完成序章，并在花掉第一个信用点前理解探索—采集—建造循环。"
+        },
+        {
+          "number": "2",
+          "title": "最佳初始飞船",
+          "description": "比较 Starlathe 的初始船体在采矿、贸易和战斗上的表现，让你的第一笔购买契合你真正想玩的风格。"
+        },
+        {
+          "number": "3",
+          "title": "最快进阶路线",
+          "description": "遵循最高效的 Starlathe 升级路径，在最初几次游戏中解锁更好的飞船、更大的货舱和新的星区。"
+        },
+        {
+          "number": "4",
+          "title": "最佳采矿点",
+          "description": "在 Starlathe 找到高产出的小行星带和资源节点，再把原矿精炼成舰队真正需要的合金。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "热门页面",
+      "title": "热门 Starlathe 攻略",
+      "quickLinks": [
+        "新手指南",
+        "银河经济",
+        "舰队配置",
+        "探索"
+      ],
+      "cards": [
+        {
+          "badge": "入门",
+          "title": "Starlathe 新手指南",
+          "description": "新指挥官需要的一切，从操作、序章到核心的探索—采集—建造循环。",
+          "href": "/guide/starlathe-beginner-guide"
+        },
+        {
+          "badge": "热门",
+          "title": "Starlathe 银河与经济",
+          "description": "采掘、精炼、生产与物流链如何把原矿变成稳定的信用点。",
+          "href": "/mechanics/starlathe-galaxy"
+        },
+        {
+          "badge": "热门",
+          "title": "Starlathe 探索",
+          "description": "勘察新星区、寻找高产节点，在鲜活的银河中开辟贸易路线。",
+          "href": "/mechanics/starlathe-exploration"
+        },
+        {
+          "badge": "最新",
+          "title": "Starlathe 角色与职责",
+          "description": "飞船职责、协同效应与组队技巧，组建一支覆盖所有任务的舰队。",
+          "href": "/characters/starlathe-characters"
+        },
+        {
+          "badge": "热门",
+          "title": "Starlathe 进阶",
+          "description": "穿越飞船、货舱、空间站直至更广阔银河的最快升级路径。",
+          "href": "/progression/starlathe-progression"
+        },
+        {
+          "badge": "已更新",
+          "title": "Starlathe 操作",
+          "description": "按键绑定、手柄设置与重映射技巧，让驾驶和战斗更顺畅。",
+          "href": "/controls/starlathe-controls"
+        },
+        {
+          "badge": "最新",
+          "title": "Starlathe 特色",
+          "description": "核心机制解析，以及哪些系统最值得你优先关注。",
+          "href": "/mechanics/starlathe-features"
+        },
+        {
+          "badge": "已更新",
+          "title": "Starlathe 更新",
+          "description": "如何追踪每一次补丁、平衡调整与抢先体验内容更新。",
+          "href": "/updates/starlathe-updates"
+        },
+        {
+          "badge": "最新",
+          "title": "Starlathe 社区",
+          "description": "在哪里找到同袍指挥官、分享舰队配置并跟进最新消息。",
+          "href": "/community/starlathe-community"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "什么是 Starlathe？",
+      "paragraphs": [
+        "Starlathe 是 Astraeon Interactive 出品的一款 2D 俯视角太空模拟游戏，目前已在 PC 平台进入抢先体验。你将指挥一支不断壮大的舰队穿越鲜活的银河，开采小行星、经营贸易路线、建造空间站，并为争夺有争议的星区而战。",
+        "即使你离线，银河也在持续演化：各势力扩张、市场波动，机遇自行开启与关闭。无论你想经营安静的采矿业务、垄断一条贸易路线，还是组建一支战斗舰队，Starlathe 都提供了构建属于自己道路的系统。"
+      ],
+      "stats": [
+        {
+          "label": "开发商",
+          "value": "Astraeon Interactive"
+        },
+        {
+          "label": "平台",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "类型",
+          "value": "太空模拟"
+        },
+        {
+          "label": "星区",
+          "value": "150"
+        },
+        {
+          "label": "贸易商品",
+          "value": "50+"
+        },
+        {
+          "label": "有效兑换码",
+          "value": "0"
+        },
+        {
+          "label": "发行",
+          "value": "抢先体验"
+        }
+      ],
+      "cta": "浏览全部攻略"
+    },
+    "explore": {
+      "title": "探索 Starlathe Wiki",
+      "description": "通过飞船、贸易、采矿、势力、舰队配置与空间站管理攻略，以及最新的抢先体验更新，掌握 Starlathe 银河。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Starlathe 新手指南",
+          "description": "面向新手的指南，涵盖在 Starlathe 中的最初步骤，包括选择起始路线、基础操作、探索、采矿、贸易和战斗准备。本模块帮助新玩家快速理解游戏的核心系统。",
+          "href": "/guide/starlathe-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "在设置菜单中调整操作、显示与音频"
+            },
+            {
+              "label": "2",
+              "detail": "完成序章以了解核心循环"
+            },
+            {
+              "label": "3",
+              "detail": "扫荡你的起始星区，获取早期资源与路线"
+            },
+            {
+              "label": "4",
+              "detail": "在下线前保存进度与信用点"
+            },
+            {
+              "label": "5",
+              "detail": "为下一次 Starlathe 游戏设定一个明确目标"
+            },
+            {
+              "label": "6",
+              "detail": "阅读游戏内图鉴条目以快速获得答案"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Starlathe 飞船指南",
+          "description": "详尽介绍飞船、舰队组建、飞船职责、升级与装备选择。玩家可以学习如何组建采矿舰队、贸易舰队、战斗编队以及更大规模的战阵。",
+          "href": "/mechanics/starlathe-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "采矿",
+              "detail": "配备大货舱和采矿激光的专用矿石船"
+            },
+            {
+              "label": "贸易",
+              "detail": "为安全、高利润贸易路线打造的高运载货船"
+            },
+            {
+              "label": "战斗",
+              "detail": "为舰队护航并守住争议星区的战舰"
+            },
+            {
+              "label": "侦察",
+              "detail": "用于勘察新星系的高速、低信号船体"
+            },
+            {
+              "label": "支援",
+              "detail": "让舰队持续运转的维修与后勤舰船"
+            },
+            {
+              "label": "升级",
+              "detail": "随你的信用点一起升级的船体、护盾与引擎模块"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Starlathe 贸易指南",
+          "description": "讲解游戏的经济系统、资源链、贸易路线、生产网络以及高效赚取信用点的方法。本节面向搜索 Starlathe 经济与赚钱策略的玩家。",
+          "href": "/mechanics/starlathe-galaxy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "原矿",
+              "detail": "在采矿枢纽购买便宜，是所有生产链的基础"
+            },
+            {
+              "label": "精炼合金",
+              "detail": "精炼后价值更高，造船厂和空间站都有需求"
+            },
+            {
+              "label": "燃料电池",
+              "detail": "每支舰队都在消耗，因此全游戏需求稳定"
+            },
+            {
+              "label": "奢侈品",
+              "detail": "运往富裕核心星区的长途高利润货物"
+            },
+            {
+              "label": "贸易路线",
+              "detail": "在生产星区低价买入，在供应稀缺处高价卖出"
+            },
+            {
+              "label": "市场情报",
+              "detail": "关注势力战争与短缺，把握最佳出售时机"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Starlathe 采矿指南",
+          "description": "涵盖小行星采矿、资源采集、材料精炼、打捞作业与工业进阶。帮助玩家优化前中期的资源生产。",
+          "href": "/mechanics/starlathe-exploration",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "扫描小行星带，寻找高产的矿石节点"
+            },
+            {
+              "label": "2",
+              "detail": "装备采矿激光和足够的货舱空间"
+            },
+            {
+              "label": "3",
+              "detail": "在矿带枯竭或对手到来前采完矿石"
+            },
+            {
+              "label": "4",
+              "detail": "把原材料运回最近的精炼厂"
+            },
+            {
+              "label": "5",
+              "detail": "把矿石精炼成造船厂愿意买单的合金"
+            },
+            {
+              "label": "6",
+              "detail": "把信用点再投资于更大的钻机和更好的扫描仪"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Starlathe 势力指南",
+          "description": "介绍银河中的各势力、声望系统、战争、联盟，以及玩家的选择如何影响这个鲜活宇宙。本模块支持与势力机制和银河政治相关的搜索。",
+          "href": "/progression/starlathe-quests",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "帝国",
+              "detail": "控制核心星区并制定法律的强大势力"
+            },
+            {
+              "label": "海盗",
+              "detail": "向贸易路线征税、猎杀落单运输船的海盗"
+            },
+            {
+              "label": "商人",
+              "detail": "以信用点和声望支付合同的贸易公会"
+            },
+            {
+              "label": "声望",
+              "detail": "通过任务、贸易与战斗赢得的声望"
+            },
+            {
+              "label": "联盟",
+              "detail": "开放共用船坞、护航与市场的盟约"
+            },
+            {
+              "label": "战争",
+              "detail": "重新划分边界并影响价格的星区冲突"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Starlathe 舰队配置梯队榜",
+          "description": "以排名形式比较实用的舰队配置、飞船组合、战斗职责以及适合不同玩法的推荐配置。面向寻找最佳舰队策略的玩家。",
+          "href": "/characters/starlathe-characters",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "均衡的战列舰舰队——防御强、输出稳"
+            },
+            {
+              "label": "A",
+              "detail": "导弹巡洋舰编队——远程爆发伤害"
+            },
+            {
+              "label": "B",
+              "detail": "护卫舰群——廉价快速的早期星区护航"
+            },
+            {
+              "label": "C",
+              "detail": "无武装货船——货舱巨大，但需要真正的护航"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Starlathe 空间站指南",
+          "description": "提供空间站建造、基地管理、防御、生产设施以及在各星区扩张影响力的信息。本模块涵盖游戏的建造与管理玩法。",
+          "href": "/mechanics/starlathe-simulation",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "船坞",
+              "detail": "无需离开所在星区即可建造、维修和改装船体"
+            },
+            {
+              "label": "精炼厂",
+              "detail": "把原矿转化为合金和更高价值的商品"
+            },
+            {
+              "label": "防御",
+              "detail": "保护你生产线的炮塔与护盾"
+            },
+            {
+              "label": "仓储",
+              "detail": "让你在价格飙升前囤货的仓库"
+            },
+            {
+              "label": "研究",
+              "detail": "解锁更好的模块、船体和生产链"
+            },
+            {
+              "label": "贸易枢纽",
+              "detail": "吸引 NPC 商人和稳定收入的码头"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Starlathe 更新与路线图",
+          "description": "追踪抢先体验更新、计划中的功能、新飞船、平衡调整以及未来的开发进展。为玩家提供跟进官方游戏改进的地方。",
+          "href": "/updates/starlathe-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "补丁",
+              "detail": "推送到线上版本的平衡调整与修复"
+            },
+            {
+              "label": "新飞船",
+              "detail": "加入船坞的全新船体与模块"
+            },
+            {
+              "label": "平衡",
+              "detail": "改变环境的武器、经济与舰队调整"
+            },
+            {
+              "label": "路线图",
+              "detail": "抢先体验中计划推出的功能与系统"
+            },
+            {
+              "label": "测试版",
+              "detail": "可在 Steam 上选择加入的测试版本"
+            },
+            {
+              "label": "修复",
+              "detail": "热修复带来的崩溃、存档与性能修复"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Starlathe 常见问题",
+      "description": "针对新指挥官最常问的 Starlathe 问题提供快速解答。",
+      "items": [
+        {
+          "question": "什么是 Starlathe？",
+          "answer": "Starlathe 是 Astraeon Interactive 出品的一款 2D 俯视角太空模拟游戏，已在 PC 平台进入抢先体验。你可以在一个离线时也持续演化的鲜活银河中采矿、贸易、建造空间站并指挥舰队。"
+        },
+        {
+          "question": "Starlathe 是免费游戏吗？",
+          "answer": "不是。Starlathe 是在 Steam 上销售的付费 PC 游戏，并非免费游玩作品，因此没有兑换码或游戏内商城。在 Steam 上购买一次即可游玩。"
+        },
+        {
+          "question": "在 Starlathe 中我首先该做什么？",
+          "answer": "从 Starlathe 新手指南开始：调整操作、完成序章，并在花信用点买第二艘船之前学会探索—采集—建造循环。"
+        },
+        {
+          "question": "我可以离线玩 Starlathe 吗？",
+          "answer": "Starlathe 通过 Steam 在 PC 上运行。鲜活的银河模拟会在你周围持续进行，因此长时间不上线前请查看最新的 Starlathe 更新，了解你的星区有何变化。"
+        },
+        {
+          "question": "Starlathe 有多人模式吗？",
+          "answer": "Starlathe 围绕单人鲜活银河设计，势力、市场与舰队都自行行动。关于未来的多人计划，请关注官方 Starlathe 渠道。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "准备好探索 Starlathe 银河了吗？",
+      "description": "从你的第一次贸易运输到指挥整支舰队，我们的社区 Wiki 都有免费、最新的 Starlathe 攻略伴你同行。",
+      "primary": "阅读新手指南",
+      "secondary": "在 Steam 上畅玩"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Starlathe 新手指南",
+    "overviewDescription": "刚接触 Starlathe？从我们的新手流程、初体验与评测报道开始，学习贸易、采矿以及如何驾驶你的第一艘飞船。"
+  },
+  "mechanics": {
+    "overviewTitle": "Starlathe 玩法与机制",
+    "overviewDescription": "了解 Starlathe 的运作方式：银河生成、模拟系统、探索循环，以及塑造每一次游戏的核心特色。"
+  },
+  "characters": {
+    "overviewTitle": "Starlathe 角色与生命体",
+    "overviewDescription": "认识你在探索 Starlathe 银河途中会遇到的角色、外星生命体与生物。"
+  },
+  "progression": {
+    "overviewTitle": "Starlathe 进阶与任务",
+    "overviewDescription": "跟随 Starlathe 的剧情、任务与委托，规划从第一份合同到终局的进阶路线。"
+  },
+  "updates": {
+    "overviewTitle": "Starlathe 更新与新闻",
+    "overviewDescription": "Starlathe 的发行日期、补丁说明、Steam 新闻与路线图更新，尽在一处。"
+  },
+  "community": {
+    "overviewTitle": "Starlathe 社区",
+    "overviewDescription": "通过 Reddit、Discord、模组与预告片加入 Starlathe 社区，找到与其他指挥官交流的最佳场所。"
+  },
+  "controls": {
+    "overviewTitle": "Starlathe 操作与设置",
+    "overviewDescription": "Starlathe 的默认按键绑定、手柄支持与设置，让你按自己的喜好调整飞船与座舱。"
+  },
+  "shared": {
+    "wikiNavigation": "Wiki 导航",
+    "activeCodes": "有效兑换码",
+    "updated": "已更新",
+    "viewAllCodes": "查看全部兑换码",
+    "playOnRoblox": "在 Roblox 上畅玩",
+    "inThisSection": "本节内容",
+    "tableOfContents": "目录",
+    "nextSteps": "后续步骤",
+    "needHelp": "需要帮助？",
+    "relatedReading": "相关阅读",
+    "relatedGuides": "相关攻略",
+    "readMore": "阅读更多",
+    "officialMedia": "官方媒体",
+    "home": "首页",
+    "noGuidesAvailable": "暂无攻略，请稍后再来！"
+  },
+  "footer": {
+    "aboutTitle": "Starlathe Wiki",
+    "about": "Starlathe Wiki 是一个独立的粉丝攻略中心，涵盖飞船配置、贸易路线、舰队管理、银河探索，以及新老指挥官都需要的核心游戏知识。",
+    "quickLinks": "快捷链接",
+    "guides": "攻略",
+    "legal": "法律",
+    "copyright": "2026 Starlathe Wiki。与 Astraeon Interactive 或 Valve 无关联。",
+    "description": "在 Steam 上体验带舰队管理、贸易与银河探索的 2D 俯视角太空模拟。",
+    "playGame": "在 Steam 上畅玩 Starlathe",
+    "officialDiscord": "Steam 社区",
+    "officialYoutube": "官方 YouTube",
+    "beginnerGuide": "新手指南",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "characterGuides": "角色攻略",
+    "mechanicsGuides": "机制攻略",
+    "progressionGuides": "进阶攻略"
+  }
+}

@@ -1,1 +1,534 @@
-{}
+{
+  "site": {
+    "name": "Starlathe Wiki",
+    "shortName": "Starlathe",
+    "tagline": "Leitfäden zu Schiffen, Handel & Galaxieerkundung",
+    "description": "Das Starlathe Wiki bietet vollständige Weltraum-Simulationsleitfäden, Schiffskonfigurationen, Handelstipps, Flottenstrategien, Erkundungsinfos und alles, was Spieler brauchen.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Leitfaden",
+    "mechanics": "Mechaniken",
+    "characters": "Charaktere",
+    "progression": "Fortschritt",
+    "updates": "Updates",
+    "community": "Community",
+    "controls": "Steuerung"
+  },
+  "home": {
+    "meta": {
+      "title": "Starlathe Wiki - Weltraumsimulation, Schiffe & Handelsleitfaden",
+      "description": "Das Starlathe Wiki bietet vollständige Weltraum-Simulationsleitfäden, Schiffskonfigurationen, Handelstipps, Flottenstrategien, Erkundungsinfos und alles, was Spieler brauchen."
+    },
+    "hero": {
+      "eyebrow": "Lebendige Weltraum-Simulation",
+      "title": "Starlathe Wiki",
+      "description": "Starlathe ist eine 2D-Weltraumsimulation in der Draufsicht, in der Spieler Schiffe kommandieren, Flotten aufbauen, Ressourcen handeln, eine lebendige Galaxie erkunden und ein Universum beeinflussen, das sich auch in ihrer Abwesenheit weiterentwickelt.",
+      "stats": [
+        "150 Sektoren verfügbar",
+        "50+ Handelsgüter",
+        "0 aktive Codes",
+        "Early-Access-Updates"
+      ],
+      "primaryCta": "Einsteigerleitfaden",
+      "secondaryCta": "Schiff- & Handelsleitfaden",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Leitfäden durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Starlathe-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteigerleitfaden",
+          "description": "Lerne die Starlathe-Grundlagen schnell: Steuerung anpassen, die Intro-Sequenz abschließen und die Schleife aus Erkunden, Sammeln und Bauen verstehen, bevor du einen einzigen Credit ausgibst."
+        },
+        {
+          "number": "2",
+          "title": "Bestes Startschiff",
+          "description": "Vergleiche die Starlathe-Startrümpfe für Bergbau, Handel und Kampf, damit dein erster Kauf zu deiner Spielweise passt."
+        },
+        {
+          "number": "3",
+          "title": "Schnellster Fortschritt",
+          "description": "Folge dem effizientesten Starlathe-Upgradepfad und schalte in deinen ersten Sitzungen bessere Schiffe, größere Frachträume und neue Sektoren frei."
+        },
+        {
+          "number": "4",
+          "title": "Beste Abbaugebiete",
+          "description": "Finde ertragreiche Asteroidenfelder und Ressourcenknoten in Starlathe und veredle Roherz zu den Legierungen, die deine Flotte wirklich braucht."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Beliebte Starlathe-Leitfäden",
+      "quickLinks": [
+        "Einsteigerleitfaden",
+        "Galaxie-Wirtschaft",
+        "Flottenkonfigurationen",
+        "Erkundung"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Starlathe Einsteigerleitfaden",
+          "description": "Alles, was neue Kommandanten brauchen: von der Steuerung und der Intro-Sequenz bis zur Kernschleife aus Erkunden, Sammeln und Bauen.",
+          "href": "/guide/starlathe-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Starlathe Galaxie & Wirtschaft",
+          "description": "Wie Abbau, Veredelung, Produktion und Logistikketten Roherz in stetige Credits verwandeln.",
+          "href": "/mechanics/starlathe-galaxy"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Starlathe Erkundung",
+          "description": "Vermesse neue Sektoren, finde ertragreiche Knoten und eröffne Handelsrouten durch die lebendige Galaxie.",
+          "href": "/mechanics/starlathe-exploration"
+        },
+        {
+          "badge": "Neu",
+          "title": "Starlathe Charaktere & Rollen",
+          "description": "Schiffsrollen, Synergien und Tipps zum Teambau für eine Flotte, die jede Aufgabe abdeckt.",
+          "href": "/characters/starlathe-characters"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Starlathe Fortschritt",
+          "description": "Der schnellste Upgradepfad durch Schiffe, Fracht, Stationen und die weitere Galaxie.",
+          "href": "/progression/starlathe-progression"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Starlathe Steuerung",
+          "description": "Tastenbelegung, Gamepad-Einrichtung und Tipps zum Neubelegen für flüssigeres Fliegen und Kämpfen.",
+          "href": "/controls/starlathe-controls"
+        },
+        {
+          "badge": "Neu",
+          "title": "Starlathe Features",
+          "description": "Eine Aufschlüsselung der Kernmechaniken und der Systeme, die zuerst Aufmerksamkeit verdienen.",
+          "href": "/mechanics/starlathe-features"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Starlathe Updates",
+          "description": "So verfolgst du jeden Patch, jede Balance-Änderung und jeden Early-Access-Inhaltsdrop.",
+          "href": "/updates/starlathe-updates"
+        },
+        {
+          "badge": "Neu",
+          "title": "Starlathe Community",
+          "description": "Wo du andere Kommandanten findest, Flottenkonfigurationen teilst und die neuesten News verfolgst.",
+          "href": "/community/starlathe-community"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Starlathe?",
+      "paragraphs": [
+        "Starlathe ist eine 2D-Weltraumsimulation in der Draufsicht von Astraeon Interactive, derzeit im Early Access für PC. Du kommandierst eine wachsende Flotte durch eine lebendige Galaxie, baust Asteroiden ab, betreibst Handelsrouten, errichtest Stationen und kämpfst um die Kontrolle über umstrittene Sektoren.",
+        "Die Galaxie entwickelt sich auch in deiner Abwesenheit weiter: Fraktionen expandieren, Märkte verschieben sich und Chancen öffnen und schließen sich von selbst. Ob du einen ruhigen Bergbaubetrieb führen, eine Handelsroute dominieren oder eine Kampfflotte aufstellen willst – Starlathe gibt dir die Systeme, um deinen eigenen Weg zu bauen."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Astraeon Interactive"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Genre",
+          "value": "Weltraumsimulation"
+        },
+        {
+          "label": "Sektoren",
+          "value": "150"
+        },
+        {
+          "label": "Handelsgüter",
+          "value": "50+"
+        },
+        {
+          "label": "Aktive Codes",
+          "value": "0"
+        },
+        {
+          "label": "Release",
+          "value": "Early Access"
+        }
+      ],
+      "cta": "Alle Leitfäden erkunden"
+    },
+    "explore": {
+      "title": "Starlathe Wiki erkunden",
+      "description": "Meistere die Starlathe-Galaxie mit Leitfäden zu Schiffen, Handel, Bergbau, Fraktionen, Flottenkonfigurationen und Stationsverwaltung sowie den neuesten Early-Access-Updates.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Starlathe Einsteigerleitfaden",
+          "description": "Ein anfängerfreundlicher Leitfaden zu den ersten Schritten in Starlathe, einschließlich Wahl des Startwegs, Grundsteuerung, Erkundung, Bergbau, Handel und Kampfvorbereitung. Dieses Modul hilft neuen Spielern, die Kernsysteme des Spiels schnell zu verstehen.",
+          "href": "/guide/starlathe-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Passe Steuerung, Anzeige und Audio im Einstellungsmenü an"
+            },
+            {
+              "label": "2",
+              "detail": "Schließe die Einführungssequenz ab, um die Kernschleife zu lernen"
+            },
+            {
+              "label": "3",
+              "detail": "Durchsuche deinen Startsektor nach frühen Ressourcen und Routen"
+            },
+            {
+              "label": "4",
+              "detail": "Sichere deinen Fortschritt und deine Credits, bevor du dich ausloggst"
+            },
+            {
+              "label": "5",
+              "detail": "Setze dir ein klares Ziel für deine nächste Starlathe-Sitzung"
+            },
+            {
+              "label": "6",
+              "detail": "Lies die Kodexeinträge im Spiel für schnelle Antworten"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Starlathe Schiffsleitfaden",
+          "description": "Ein detaillierter Überblick über Schiffe, Flottenaufbau, Schiffsrollen, Upgrades und Ausrüstungswahl. Spieler lernen, wie sie Bergbauflotten, Handelsflotten, Kampfgruppen und größere Schlachtformationen aufstellen.",
+          "href": "/mechanics/starlathe-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bergbau",
+              "detail": "Spezialisierte Erzschiffe mit großen Laderäumen und Bergbaulasern"
+            },
+            {
+              "label": "Handel",
+              "detail": "Frachter mit hoher Kapazität für sichere, profitable Handelsrouten"
+            },
+            {
+              "label": "Kampf",
+              "detail": "Kriegsschiffe, die deine Flotte abschirmen und umstrittene Sektoren halten"
+            },
+            {
+              "label": "Späher",
+              "detail": "Schnelle Rümpfe mit geringer Signatur zur Vermessung neuer Systeme"
+            },
+            {
+              "label": "Support",
+              "detail": "Reparatur- und Logistikschiffe, die eine Flotte flugfähig halten"
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Rumpf-, Schild- und Triebwerksmodule, die mit deinen Credits wachsen"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Starlathe Handelsleitfaden",
+          "description": "Erklärt die Wirtschaftssysteme des Spiels, Ressourcenketten, Handelsrouten, Produktionsnetzwerke und Wege, effizient Credits zu verdienen. Dieser Abschnitt richtet sich an Spieler, die nach Starlathe-Wirtschafts- und Geldstrategien suchen.",
+          "href": "/mechanics/starlathe-galaxy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Roherz",
+              "detail": "Günstig an Bergbau-Hubs zu kaufen und Basis jeder Produktionskette"
+            },
+            {
+              "label": "Veredelte Legierung",
+              "detail": "Nach der Veredelung wertvoller und von Werften und Stationen nachgefragt"
+            },
+            {
+              "label": "Brennstoffzellen",
+              "detail": "Von jeder Flotte verbraucht, daher das ganze Spiel über stetig nachgefragt"
+            },
+            {
+              "label": "Luxusgüter",
+              "detail": "Fracht mit hoher Marge für lange Routen in reiche Kernsektoren"
+            },
+            {
+              "label": "Handelsrouten",
+              "detail": "In Produktionssektoren günstig kaufen, dort teuer verkaufen, wo das Angebot knapp ist"
+            },
+            {
+              "label": "Marktinfos",
+              "detail": "Beobachte Fraktionskriege und Engpässe, um deine besten Verkäufe zu timen"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Starlathe Bergbauleitfaden",
+          "description": "Behandelt Asteroidenbergbau, Ressourcensammlung, Materialveredelung, Bergungsoperationen und industriellen Fortschritt. Er hilft Spielern, die Ressourcenproduktion im Früh- und Mittelspiel zu optimieren.",
+          "href": "/mechanics/starlathe-exploration",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Scanne Asteroidenfelder nach ertragreichen Erzknoten"
+            },
+            {
+              "label": "2",
+              "detail": "Rüste einen Bergbaulaser und genug Frachtraum für den Lauf aus"
+            },
+            {
+              "label": "3",
+              "detail": "Baue Erz ab, bevor das Feld erschöpft ist oder Rivalen eintreffen"
+            },
+            {
+              "label": "4",
+              "detail": "Transportiere Rohmaterial zur nächsten Raffinerie"
+            },
+            {
+              "label": "5",
+              "detail": "Veredle Erz zu Legierungen, für die Werften zahlen"
+            },
+            {
+              "label": "6",
+              "detail": "Investiere Credits in größere Rigs und bessere Scanner"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Starlathe Fraktionsleitfaden",
+          "description": "Stellt die Fraktionen der Galaxie, Rufsysteme, Kriege, Allianzen und den Einfluss der Spielerentscheidungen auf das lebendige Universum vor. Dieses Modul unterstützt Suchen zu Fraktionsmechaniken und Galaxiepolitik.",
+          "href": "/progression/starlathe-quests",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Imperien",
+              "detail": "Große Mächte, die Kernsektoren kontrollieren und die Gesetze bestimmen"
+            },
+            {
+              "label": "Piraten",
+              "detail": "Räuber, die Handelsrouten besteuern und einzelne Frachter jagen"
+            },
+            {
+              "label": "Händler",
+              "detail": "Handelsgilden, deren Verträge in Credits und Ruf zahlen"
+            },
+            {
+              "label": "Ruf",
+              "detail": "Ansehen, das du durch Missionen, Handel und Kampf verdienst"
+            },
+            {
+              "label": "Allianzen",
+              "detail": "Pakte, die gemeinsame Docks, Geleitschutz und Märkte öffnen"
+            },
+            {
+              "label": "Kriege",
+              "detail": "Sektorkonflikte, die Grenzen neu ziehen und Preise verschieben"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Starlathe Flottenkonfigurations-Tier-Liste",
+          "description": "Ein Ranking-Modul, das nützliche Flottenaufstellungen, Schiffskombinationen, Kampfrollen und empfohlene Konfigurationen für verschiedene Spielstile vergleicht. Es richtet sich an Spieler, die die besten Flottenstrategien suchen.",
+          "href": "/characters/starlathe-characters",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Ausgewogene Schlachtschiffflotten – starke Verteidigung mit zuverlässigem Schaden"
+            },
+            {
+              "label": "A",
+              "detail": "Raketenkreuzer-Gruppen – Burstschaden aus großer Reichweite"
+            },
+            {
+              "label": "B",
+              "detail": "Fregattenschwärme – günstige, schnelle Geleitschiffe für frühe Sektoren"
+            },
+            {
+              "label": "C",
+              "detail": "Unbewaffnete Frachter – riesige Fracht, aber sie brauchen echten Geleitschutz"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Starlathe Stationsleitfaden",
+          "description": "Bietet Informationen zu Stationsbau, Basisverwaltung, Verteidigung, Produktionsanlagen und dem Ausbau des Einflusses über Sektoren hinweg. Dieses Modul deckt das Bau- und Verwaltungsgameplay des Spiels ab.",
+          "href": "/mechanics/starlathe-simulation",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Werft",
+              "detail": "Baue, repariere und rüste Rümpfe um, ohne deinen Sektor zu verlassen"
+            },
+            {
+              "label": "Raffinerie",
+              "detail": "Verwandle Roherz in Legierungen und höherwertige Güter"
+            },
+            {
+              "label": "Verteidigung",
+              "detail": "Geschütze und Schilde, die deine Produktionslinien schützen"
+            },
+            {
+              "label": "Lager",
+              "detail": "Depots, mit denen du vor einem Preisausschlag hortest"
+            },
+            {
+              "label": "Forschung",
+              "detail": "Schalte bessere Module, Rümpfe und Produktionsketten frei"
+            },
+            {
+              "label": "Handelszentrum",
+              "detail": "Docks, die NPC-Händler und stetige Einnahmen anziehen"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Starlathe Updates und Roadmap",
+          "description": "Verfolgt Early-Access-Updates, geplante Features, neue Schiffe, Balance-Änderungen und den weiteren Entwicklungsfortschritt. Es bietet Spielern einen Ort, um offizielle Spielverbesserungen zu verfolgen.",
+          "href": "/updates/starlathe-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance-Anpassungen und Fixes, die im Live-Build erscheinen"
+            },
+            {
+              "label": "Neue Schiffe",
+              "detail": "Frische Rümpfe und Module, die der Werft hinzugefügt werden"
+            },
+            {
+              "label": "Balance",
+              "detail": "Waffen-, Wirtschafts- und Flottenänderungen, die das Meta verschieben"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Geplante Features und Systeme, die im Early Access kommen"
+            },
+            {
+              "label": "Betas",
+              "detail": "Optionale Test-Builds, denen du auf Steam beitreten kannst"
+            },
+            {
+              "label": "Fixes",
+              "detail": "Crash-, Speicher- und Performance-Fixes aus Hotfixes"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Starlathe FAQ",
+      "description": "Schnelle Antworten auf die häufigsten Starlathe-Fragen neuer Kommandanten.",
+      "items": [
+        {
+          "question": "Was ist Starlathe?",
+          "answer": "Starlathe ist eine 2D-Weltraumsimulation in der Draufsicht von Astraeon Interactive, im Early Access für PC. Du baust ab, handelst, errichtest Stationen und kommandierst Flotten in einer lebendigen Galaxie, die sich auch offline weiterentwickelt."
+        },
+        {
+          "question": "Ist Starlathe kostenlos spielbar?",
+          "answer": "Nein. Starlathe ist ein kostenpflichtiges PC-Spiel, das auf Steam verkauft wird, kein Free-to-Play-Titel – es gibt also keine Einlösecodes oder einen Ingame-Shop. Einmal auf Steam kaufen und du bist dabei."
+        },
+        {
+          "question": "Was sollte ich in Starlathe zuerst tun?",
+          "answer": "Beginne mit dem Starlathe-Einsteigerleitfaden: Passe deine Steuerung an, schließe die Intro-Sequenz ab und lerne die Schleife aus Erkunden, Sammeln und Bauen, bevor du Credits für ein zweites Schiff ausgibst."
+        },
+        {
+          "question": "Kann ich Starlathe offline spielen?",
+          "answer": "Starlathe läuft auf dem PC über Steam. Die lebendige Galaxiesimulation läuft um dich herum weiter, also prüfe vor längeren Pausen die neuesten Starlathe-Updates, um zu sehen, was sich in deinen Sektoren geändert hat."
+        },
+        {
+          "question": "Hat Starlathe einen Mehrspielermodus?",
+          "answer": "Starlathe ist um eine lebendige Einzelspieler-Galaxie herum aufgebaut, in der Fraktionen, Märkte und Flotten eigenständig agieren. Folge den offiziellen Starlathe-Kanälen für etwaige zukünftige Mehrspielerpläne."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, die Starlathe-Galaxie zu erkunden?",
+      "description": "Von deiner ersten Handelsfahrt bis zum Kommando über eine ganze Flotte deckt unser Community-Wiki dich mit kostenlosen, aktuellen Starlathe-Leitfäden ab.",
+      "primary": "Einsteigerleitfaden lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Starlathe Einsteigerleitfaden",
+    "overviewDescription": "Neu bei Starlathe? Beginne mit unseren Einsteiger-Walkthroughs, ersten Eindrücken und Testberichten, um Handel, Bergbau und das Fliegen deines ersten Schiffes zu lernen."
+  },
+  "mechanics": {
+    "overviewTitle": "Starlathe Gameplay & Mechaniken",
+    "overviewDescription": "Verstehe, wie Starlathe gespielt wird: Galaxiegenerierung, Simulationssysteme, Erkundungsschleifen und die Kernfeatures, die jede Sitzung prägen."
+  },
+  "characters": {
+    "overviewTitle": "Starlathe Charaktere & Lebensformen",
+    "overviewDescription": "Lerne die Charaktere, außerirdischen Lebensformen und Kreaturen kennen, denen du bei der Erkundung der Starlathe-Galaxie begegnest."
+  },
+  "progression": {
+    "overviewTitle": "Starlathe Fortschritt & Missionen",
+    "overviewDescription": "Folge der Starlathe-Story, den Missionen und Aufträgen und plane deinen Fortschrittspfad vom ersten Vertrag bis zum Endgame."
+  },
+  "updates": {
+    "overviewTitle": "Starlathe Updates & News",
+    "overviewDescription": "Releasedaten, Patch-Notes, Steam-News und Roadmap-Updates zu Starlathe, an einem Ort gesammelt."
+  },
+  "community": {
+    "overviewTitle": "Starlathe Community",
+    "overviewDescription": "Werde Teil der Starlathe-Community über Reddit, Discord, Mods und Trailer und finde die besten Orte, um dich mit anderen Kommandanten auszutauschen."
+  },
+  "controls": {
+    "overviewTitle": "Starlathe Steuerung & Einstellungen",
+    "overviewDescription": "Standard-Tastenbelegung, Controller-Unterstützung und Einstellungen für Starlathe, damit du dein Schiff und Cockpit nach deinem Geschmack anpasst."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Leitfäden verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Starlathe Wiki",
+    "about": "Das Starlathe Wiki ist ein unabhängiger, von Fans gebauter Leitfaden-Hub zu Schiffskonfigurationen, Handelsrouten, Flottenverwaltung, Galaxieerkundung und wichtigem Spielwissen für neue wie erfahrene Kommandanten.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Starlathe Wiki. Nicht mit Astraeon Interactive oder Valve verbunden.",
+    "description": "2D-Weltraumsimulation in der Draufsicht mit Flottenverwaltung, Handel und Galaxieerkundung auf Steam.",
+    "playGame": "Starlathe auf Steam spielen",
+    "officialDiscord": "Steam-Community",
+    "officialYoutube": "Offizielles YouTube",
+    "beginnerGuide": "Einsteigerleitfaden",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "characterGuides": "Charakter-Leitfäden",
+    "mechanicsGuides": "Mechanik-Leitfäden",
+    "progressionGuides": "Fortschritts-Leitfäden"
+  }
+}

@@ -1,1 +1,534 @@
-{}
+{
+  "site": {
+    "name": "Starlathe Wiki",
+    "shortName": "Starlathe",
+    "tagline": "艦船・交易・銀河探索ガイド",
+    "description": "Starlathe Wiki は、宇宙シミュレーションの完全ガイド、艦船ビルド、交易のコツ、艦隊戦略、探索情報など、プレイヤーに必要なすべてを提供します。",
+    "legalNotice": "非公式のファン Wiki です。プレイヤーによる、プレイヤーのためのサイトです。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え",
+    "guide": "ガイド",
+    "mechanics": "メカニクス",
+    "characters": "キャラクター",
+    "progression": "進行",
+    "updates": "アップデート",
+    "community": "コミュニティ",
+    "controls": "操作方法"
+  },
+  "home": {
+    "meta": {
+      "title": "Starlathe Wiki - 宇宙シミュレーション・艦船・交易ガイド",
+      "description": "Starlathe Wiki は、宇宙シミュレーションの完全ガイド、艦船ビルド、交易のコツ、艦隊戦略、探索情報など、プレイヤーに必要なすべてを提供します。"
+    },
+    "hero": {
+      "eyebrow": "生きた銀河の宇宙シミュレーション",
+      "title": "Starlathe Wiki",
+      "description": "Starlathe は 2D 見下ろし型の宇宙シミュレーションゲームです。プレイヤーは艦船を指揮し、艦隊を編成し、資源を交易し、生きた銀河を探索し、オフラインでも進化し続ける宇宙に影響を与えます。",
+      "stats": [
+        "150 の利用可能なセクター",
+        "50 以上の交易品",
+        "有効なコード 0 件",
+        "早期アクセス更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "艦船・交易ガイド",
+      "tertiaryCta": "有効なコード",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "あなたの Starlathe の旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "Starlathe の基本を素早く学びましょう。操作を調整し、導入シーケンスを完了し、1 クレジットも使う前に探索・採集・建造のループを理解します。"
+        },
+        {
+          "number": "2",
+          "title": "最適な初期艦",
+          "description": "採掘・交易・戦闘における Starlathe の初期船体を比較し、最初の購入が本当に遊びたいスタイルに合うようにします。"
+        },
+        {
+          "number": "3",
+          "title": "最速の進行ルート",
+          "description": "最も効率的な Starlathe のアップグレード経路をたどり、最初の数セッションでより良い艦船、より大きな貨物室、新しいセクターを解放します。"
+        },
+        {
+          "number": "4",
+          "title": "最高の採掘スポット",
+          "description": "Starlathe で高収量の小惑星帯と資源ノードを見つけ、原鉱石を艦隊に必要な合金へ精錬します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "人気の Starlathe ガイド",
+      "quickLinks": [
+        "初心者ガイド",
+        "銀河経済",
+        "艦隊ビルド",
+        "探索"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "Starlathe 初心者ガイド",
+          "description": "操作や導入シーケンスから、探索・採集・建造のコアループまで、新米指揮官に必要なすべて。",
+          "href": "/guide/starlathe-beginner-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "Starlathe 銀河と経済",
+          "description": "採掘・精錬・生産・物流のチェーンが原鉱石を安定したクレジットに変える仕組み。",
+          "href": "/mechanics/starlathe-galaxy"
+        },
+        {
+          "badge": "人気",
+          "title": "Starlathe 探索",
+          "description": "新しいセクターを調査し、高収量ノードを見つけ、生きた銀河に交易路を開きます。",
+          "href": "/mechanics/starlathe-exploration"
+        },
+        {
+          "badge": "新着",
+          "title": "Starlathe キャラクターと役割",
+          "description": "あらゆる任務をカバーする艦隊を組むための艦船の役割、相乗効果、編成のコツ。",
+          "href": "/characters/starlathe-characters"
+        },
+        {
+          "badge": "人気",
+          "title": "Starlathe 進行",
+          "description": "艦船、貨物、ステーション、そして広い銀河へと続く最速のアップグレード経路。",
+          "href": "/progression/starlathe-progression"
+        },
+        {
+          "badge": "更新済み",
+          "title": "Starlathe 操作方法",
+          "description": "キー割り当て、ゲームパッド設定、再割り当てのコツで、操縦と戦闘をよりスムーズに。",
+          "href": "/controls/starlathe-controls"
+        },
+        {
+          "badge": "新着",
+          "title": "Starlathe の特徴",
+          "description": "コアメカニクスの解説と、どのシステムに最初に注目すべきか。",
+          "href": "/mechanics/starlathe-features"
+        },
+        {
+          "badge": "更新済み",
+          "title": "Starlathe アップデート",
+          "description": "すべてのパッチ、バランス調整、早期アクセスのコンテンツ追加を追跡する方法。",
+          "href": "/updates/starlathe-updates"
+        },
+        {
+          "badge": "新着",
+          "title": "Starlathe コミュニティ",
+          "description": "仲間の指揮官を見つけ、艦隊ビルドを共有し、最新ニュースを追う場所。",
+          "href": "/community/starlathe-community"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Starlathe とは？",
+      "paragraphs": [
+        "Starlathe は Astraeon Interactive による 2D 見下ろし型の宇宙シミュレーションゲームで、現在 PC 向けに早期アクセス中です。あなたは成長する艦隊を率いて生きた銀河を渡り、小惑星を採掘し、交易路を運営し、ステーションを建造し、係争セクターの支配をめぐって戦います。",
+        "銀河はあなたが離れている間も進化し続けます。勢力は拡大し、市場は変動し、機会は自ら開いたり閉じたりします。静かな採掘事業を営むのも、交易路を独占するのも、戦闘艦隊を編成するのも、Starlathe には自分だけの道を築くためのシステムが用意されています。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Astraeon Interactive"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "ジャンル",
+          "value": "宇宙シミュレーション"
+        },
+        {
+          "label": "セクター",
+          "value": "150"
+        },
+        {
+          "label": "交易品",
+          "value": "50+"
+        },
+        {
+          "label": "有効なコード",
+          "value": "0"
+        },
+        {
+          "label": "リリース",
+          "value": "早期アクセス"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Starlathe Wiki を探索",
+      "description": "艦船、交易、採掘、勢力、艦隊ビルド、ステーション管理のガイドと最新の早期アクセス情報で、Starlathe の銀河を極めましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Starlathe 初心者ガイド",
+          "description": "Starlathe での最初のステップを扱う初心者向けガイドで、開始ルートの選択、基本操作、探索、採掘、交易、戦闘準備を解説します。このモジュールは新規プレイヤーがゲームのコアシステムを素早く理解するのに役立ちます。",
+          "href": "/guide/starlathe-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "設定メニューで操作、表示、オーディオを調整する"
+            },
+            {
+              "label": "2",
+              "detail": "導入シーケンスを完了してコアループを学ぶ"
+            },
+            {
+              "label": "3",
+              "detail": "開始セクターを巡回して序盤の資源とルートを確保する"
+            },
+            {
+              "label": "4",
+              "detail": "ログオフする前に進行状況とクレジットを保存する"
+            },
+            {
+              "label": "5",
+              "detail": "次の Starlathe セッションの明確な目標を 1 つ決める"
+            },
+            {
+              "label": "6",
+              "detail": "ゲーム内コーデックスの項目を読んで素早く答えを得る"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Starlathe 艦船ガイド",
+          "description": "艦船、艦隊編成、艦船の役割、アップグレード、装備の選択を詳しく解説します。プレイヤーは採掘艦隊、交易艦隊、戦闘グループ、大規模な戦闘編成の組み方を学べます。",
+          "href": "/mechanics/starlathe-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "採掘",
+              "detail": "大きな貨物室と採掘レーザーを備えた専用の鉱石船"
+            },
+            {
+              "label": "交易",
+              "detail": "安全で利益の出る交易路のために造られた大容量貨物船"
+            },
+            {
+              "label": "戦闘",
+              "detail": "艦隊を護衛し係争セクターを保持する軍艦"
+            },
+            {
+              "label": "偵察",
+              "detail": "新たな星系を調査する高速・低シグネチャの船体"
+            },
+            {
+              "label": "支援",
+              "detail": "艦隊を飛ばし続ける修理・兵站船"
+            },
+            {
+              "label": "アップグレード",
+              "detail": "クレジットに応じて強化できる船体・シールド・エンジンモジュール"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Starlathe 交易ガイド",
+          "description": "ゲームの経済システム、資源チェーン、交易路、生産ネットワーク、効率的にクレジットを稼ぐ方法を解説します。このセクションは Starlathe の経済・稼ぎ方を検索するプレイヤー向けです。",
+          "href": "/mechanics/starlathe-galaxy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "原鉱石",
+              "detail": "採掘ハブで安く買え、あらゆる生産チェーンの基盤となる"
+            },
+            {
+              "label": "精錬合金",
+              "detail": "精錬で価値が上がり、造船所やステーションから需要がある"
+            },
+            {
+              "label": "燃料電池",
+              "detail": "どの艦隊も消費するため、全期間を通じて需要が安定している"
+            },
+            {
+              "label": "高級品",
+              "detail": "裕福な中核セクターへの長距離輸送で高マージンを狙える貨物"
+            },
+            {
+              "label": "交易路",
+              "detail": "生産セクターで安く買い、供給の薄い場所で高く売る"
+            },
+            {
+              "label": "市場情報",
+              "detail": "勢力間の戦争や不足を注視し、最良の売り時を計る"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Starlathe 採掘ガイド",
+          "description": "小惑星採掘、資源採集、材料の精錬、サルベージ作業、産業の進行を扱います。序盤から中盤の資源生産を最適化したいプレイヤーに役立ちます。",
+          "href": "/mechanics/starlathe-exploration",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "小惑星帯をスキャンして高収量の鉱石ノードを探す"
+            },
+            {
+              "label": "2",
+              "detail": "採掘レーザーと十分な貨物スペースを装備する"
+            },
+            {
+              "label": "3",
+              "detail": "鉱脈が枯渇したりライバルが来る前に採掘する"
+            },
+            {
+              "label": "4",
+              "detail": "原材料を最寄りの精錬所へ運ぶ"
+            },
+            {
+              "label": "5",
+              "detail": "鉱石を造船所が買い取る合金に精錬する"
+            },
+            {
+              "label": "6",
+              "detail": "クレジットをより大きな採掘機と高性能スキャナーに再投資する"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Starlathe 勢力ガイド",
+          "description": "銀河の勢力、評判システム、戦争、同盟、そしてプレイヤーの選択が生きた宇宙に与える影響を紹介します。このモジュールは勢力の仕組みや銀河政治に関する検索に対応します。",
+          "href": "/progression/starlathe-quests",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "帝国",
+              "detail": "中核セクターを支配し法を定める大国"
+            },
+            {
+              "label": "海賊",
+              "detail": "交易路に課税し、はぐれ輸送船を狙う略奪者"
+            },
+            {
+              "label": "商人",
+              "detail": "クレジットと評判で契約を支払う交易ギルド"
+            },
+            {
+              "label": "評判",
+              "detail": "任務、交易、戦闘で得られる信頼"
+            },
+            {
+              "label": "同盟",
+              "detail": "共用ドック、護衛、市場を開く協定"
+            },
+            {
+              "label": "戦争",
+              "detail": "境界を引き直し価格を動かすセクター紛争"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Starlathe 艦隊ビルドティアリスト",
+          "description": "有用な艦隊構成、艦船の組み合わせ、戦闘での役割、プレイスタイル別の推奨ビルドをランキング形式で比較するモジュールです。最良の艦隊戦略を求めるプレイヤーを対象としています。",
+          "href": "/characters/starlathe-characters",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "バランス型戦艦艦隊 — 堅牢な防御と安定した火力"
+            },
+            {
+              "label": "A",
+              "detail": "ミサイル巡洋艦群 — 長距離からのバーストダメージ"
+            },
+            {
+              "label": "B",
+              "detail": "フリゲート群 — 序盤セクター向けの安価で高速な護衛"
+            },
+            {
+              "label": "C",
+              "detail": "非武装貨物船 — 巨大な積載量だが本格的な護衛が必要"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Starlathe ステーションガイド",
+          "description": "ステーションの建造、基地管理、防衛、生産施設、セクター全体への影響力拡大に関する情報を提供します。このモジュールはゲームの建造・管理ゲームプレイを扱います。",
+          "href": "/mechanics/starlathe-simulation",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "造船所",
+              "detail": "セクターを離れずに船体を建造・修理・改装できる"
+            },
+            {
+              "label": "精錬所",
+              "detail": "原鉱石を合金やより高価値な商品に変える"
+            },
+            {
+              "label": "防衛",
+              "detail": "生産ラインを守るタレットとシールド"
+            },
+            {
+              "label": "保管",
+              "detail": "価格高騰の前に備蓄できる倉庫"
+            },
+            {
+              "label": "研究",
+              "detail": "より良いモジュール、船体、生産チェーンを解放する"
+            },
+            {
+              "label": "交易ハブ",
+              "detail": "NPC 商人と安定した収入を引き寄せるドック"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Starlathe アップデートとロードマップ",
+          "description": "早期アクセスの更新、予定された機能、新艦船、バランス調整、今後の開発状況を追跡します。プレイヤーが公式のゲーム改善を追える場所を提供します。",
+          "href": "/updates/starlathe-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "パッチ",
+              "detail": "ライブビルドに配信されるバランス調整と修正"
+            },
+            {
+              "label": "新艦船",
+              "detail": "造船所に追加される新しい船体とモジュール"
+            },
+            {
+              "label": "バランス",
+              "detail": "メタを動かす武器、経済、艦隊の変更"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "早期アクセスで登場予定の機能とシステム"
+            },
+            {
+              "label": "ベータ",
+              "detail": "Steam で参加できる任意のテストビルド"
+            },
+            {
+              "label": "修正",
+              "detail": "ホットフィックスによるクラッシュ、セーブ、性能の修正"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Starlathe よくある質問",
+      "description": "新米指揮官からよく寄せられる Starlathe の質問に素早く答えます。",
+      "items": [
+        {
+          "question": "Starlathe とは何ですか？",
+          "answer": "Starlathe は Astraeon Interactive による 2D 見下ろし型の宇宙シミュレーションゲームで、PC 向けに早期アクセス中です。オフラインでも進化し続ける生きた銀河で、採掘し、交易し、ステーションを建て、艦隊を指揮します。"
+        },
+        {
+          "question": "Starlathe は無料で遊べますか？",
+          "answer": "いいえ。Starlathe は Steam で販売される有料の PC ゲームであり、基本無料のタイトルではないため、引き換えコードやゲーム内課金ショップはありません。Steam で一度購入すれば遊べます。"
+        },
+        {
+          "question": "Starlathe では最初に何をすべきですか？",
+          "answer": "Starlathe 初心者ガイドから始めましょう。操作を調整し、導入シーケンスを完了し、2 隻目の艦にクレジットを使う前に探索・採集・建造のループを学びます。"
+        },
+        {
+          "question": "Starlathe はオフラインで遊べますか？",
+          "answer": "Starlathe は Steam を通じて PC で動作します。生きた銀河シミュレーションはあなたの周りで進行し続けるので、長く離れる前に最新の Starlathe アップデートを確認し、セクターの変化を把握しましょう。"
+        },
+        {
+          "question": "Starlathe にマルチプレイはありますか？",
+          "answer": "Starlathe は勢力、市場、艦隊が自律的に動くシングルプレイヤーの生きた銀河を中心に設計されています。今後のマルチプレイ計画については公式の Starlathe チャンネルをフォローしてください。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Starlathe の銀河を探索する準備はできましたか？",
+      "description": "最初の交易航海から全艦隊の指揮まで、私たちのコミュニティ Wiki が無料で最新の Starlathe ガイドでサポートします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steam でプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Starlathe 初心者ガイド",
+    "overviewDescription": "Starlathe は初めてですか？初心者向けのウォークスルー、ファーストインプレッション、レビュー記事から始めて、交易や採掘、最初の艦の操縦方法を学びましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Starlathe ゲームプレイとメカニクス",
+    "overviewDescription": "Starlathe の遊び方を理解しましょう。銀河の生成、シミュレーションシステム、探索ループ、そして毎回のセッションを形作るコアな特徴を解説します。"
+  },
+  "characters": {
+    "overviewTitle": "Starlathe キャラクターと生命体",
+    "overviewDescription": "Starlathe の銀河を探索する中で出会うキャラクター、異星の生命体、生物を紹介します。"
+  },
+  "progression": {
+    "overviewTitle": "Starlathe 進行とミッション",
+    "overviewDescription": "Starlathe のストーリー、ミッション、クエストを追い、最初の契約からエンドゲームまでの進行ルートを計画しましょう。"
+  },
+  "updates": {
+    "overviewTitle": "Starlathe アップデートとニュース",
+    "overviewDescription": "Starlathe のリリース日、パッチノート、Steam ニュース、ロードマップの更新を一か所にまとめました。"
+  },
+  "community": {
+    "overviewTitle": "Starlathe コミュニティ",
+    "overviewDescription": "Reddit、Discord、MOD、トレーラーを通じて Starlathe コミュニティに参加し、他の指揮官と交流するのに最適な場所を見つけましょう。"
+  },
+  "controls": {
+    "overviewTitle": "Starlathe 操作方法と設定",
+    "overviewDescription": "Starlathe の既定のキー割り当て、コントローラー対応、設定。艦とコックピットを好みに合わせて調整できます。"
+  },
+  "shared": {
+    "wikiNavigation": "Wiki ナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新済み",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Roblox でプレイ",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。しばらくしてからもう一度お越しください！"
+  },
+  "footer": {
+    "aboutTitle": "Starlathe Wiki",
+    "about": "Starlathe Wiki は、艦船ビルド、交易路、艦隊管理、銀河探索、そして新米からベテランの指揮官までに必要なゲーム知識を扱う、独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Starlathe Wiki。Astraeon Interactive および Valve とは提携していません。",
+    "description": "Steam で展開する、艦隊管理・交易・銀河探索を備えた 2D 見下ろし型宇宙シミュレーション。",
+    "playGame": "Steam で Starlathe をプレイ",
+    "officialDiscord": "Steam コミュニティ",
+    "officialYoutube": "公式 YouTube",
+    "beginnerGuide": "初心者ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "characterGuides": "キャラクターガイド",
+    "mechanicsGuides": "メカニクスガイド",
+    "progressionGuides": "進行ガイド"
+  }
+}
