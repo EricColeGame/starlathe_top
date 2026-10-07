@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "Starlathe Mods: A Community Guide to Installing, Managing, and Enjoying Them",
+  description: "A practical community guide to starlathe mods: how to choose, install, and troubleshoot them without wrecking your saves or your load order.",
+  category: "community",
+  date: "2026-10-07",
+}
+
+## Why Starlathe Mods Matter to the Community
+
+Starlathe mods are the fastest way to turn a familiar experience into something that feels brand new. Whether you want better visuals, deeper systems, or small quality-of-life fixes, the modding scene is where the community's creativity shows up first. That matters because official updates arrive on their own schedule — mods let players shape the experience on theirs.
+
+For newcomers, the appeal is obvious: more content, more control, more reasons to keep playing. For veterans, Starlathe mods are a way to revisit a world they already know with fresh rules. The catch is that modding rewards a little preparation. Players who skip the basics — backups, load order, version checks — tend to spend their first evening troubleshooting instead of playing.
+
+This guide covers what kinds of mods exist, how to install them safely, and how the community keeps things running smoothly.
+
+## The Main Categories of Starlathe Mods
+
+Not every mod does the same job, and knowing the category helps you predict how much risk it carries. Small cosmetic tweaks rarely break anything. Deep system overhauls touch far more of the game and demand more care.
+
+Community reports generally group mods into a handful of families. The table below summarizes what each one typically changes and how cautious you should be.
+
+| Category | What it changes | Typical risk level | Best for |
+|---|---|---|---|
+| Quality-of-life | Menus, inventory flow, UI clarity | Low | Everyone, especially new players |
+| Visual and audio | Textures, lighting, sound design | Low to medium | Players with headroom on their hardware |
+| Content additions | New items, areas, encounters | Medium | Anyone who has finished the base experience |
+| Gameplay overhauls | Core rules, balance, progression | High | Experienced players who want a new challenge |
+| Performance and fixes | Stability, bug patches, optimizations | Low | Older machines and long-running saves |
+| Utility and framework | Shared libraries other mods depend on | Medium | Required by many larger mods |
+
+A useful rule of thumb: the deeper a mod reaches into core systems, the more likely it is to conflict with something else. Build your list from the top of that table downward, and you will hit far fewer problems.
+
+## How to Install Starlathe Mods Without Breaking Your Save
+
+Installation is where most beginners get stuck, and it is almost always because they skipped a step. The sequence below is the one the community repeats over and over, and it works regardless of which mod manager or manual setup you prefer.
+
+| Step | Action | Why it matters |
+|---|---|---|
+| 1 | Confirm your game version | Mods built for a different version are the number one cause of crashes |
+| 2 | Back up your saves and config files | A five-minute copy can save dozens of hours |
+| 3 | Read the mod's own instructions | Creators document dependencies and known conflicts |
+| 4 | Install required frameworks first | Many mods will not load without their shared libraries |
+| 5 | Add mods one at a time | You learn exactly which file caused a problem |
+| 6 | Launch and test before adding more | Early testing keeps troubleshooting simple |
+| 7 | Note what you installed and where | Future you will thank present you |
+
+If you use a mod manager, steps four through six are partly automated, but the discipline still matters. Adding twenty mods at once and then hunting for the culprit is far more painful than adding them slowly.
+
+### Load Order and Conflicts
+
+Load order determines which mod gets the final say when two of them edit the same thing. Most managers sort automatically, but automatic sorting is a starting point, not a guarantee.
+
+| Symptom | Likely cause | Usual fix |
+|---|---|---|
+| Mod has no visible effect | Loaded before a mod that overwrites it | Move it later in the order |
+| Textures look wrong or missing | Two mods editing the same assets | Keep one, or install a compatibility patch |
+| Crash on startup | Missing dependency or version mismatch | Check requirements, then reinstall in order |
+| Save fails to load | Removed a mod the save depended on | Restore the backup and re-add the mod |
+
+Player experience suggests that most "broken mod" reports are actually load-order problems. Before you delete anything, reorder and retest.
+
+### Performance Considerations
+
+Every mod you add spends some of your machine's resources. Cosmetic mods are usually cheap; anything that adds moving parts, scripts, or large world content costs more.
+
+- Track your baseline performance **before** modding so you have something to compare against.
+- Remove mods you are not actively using rather than leaving them disabled in the folder.
+- Be cautious with overlapping visual mods — they stack cost quickly.
+- If performance drops sharply after one addition, that mod is your answer.
+
+## Troubleshooting the Most Common Starlathe Mods Problems
+
+Even a careful setup eventually misbehaves. The good news is that the same few problems account for most of the frustration, and each has a predictable fix.
+
+| Problem | What it usually means | What to try first |
+|---|---|---|
+| Game will not launch | A dependency is missing or outdated | Verify the framework mods are installed and current |
+| Crash mid-session | Two mods fighting over the same system | Disable half your list, then narrow it down |
+| Stuttering or long load times | Too many heavy mods at once | Trim the list and test again |
+| Missing textures or pink placeholders | Assets not loading correctly | Reinstall that mod and confirm file paths |
+| Settings keep resetting | A mod is rewriting your config | Check the mod's config file and permissions |
+| Progress lost after an update | Save and mod versions drifted apart | Roll back the update or restore a backup |
+
+The half-and-half method deserves a special mention. Disable half of your mods, launch, and see if the problem persists. If it does, the culprit is in the half still enabled; if it does not, it is in the half you disabled. Repeat until you have one mod left. It feels slow, but it is reliably faster than guessing.
+
+Keeping notes on what you changed and when turns this from detective work into a checklist.
+
+## Safety, Credit, and Good Community Habits
+
+Modding is a community effort, and the health of the scene depends on how players behave. Download from sources with visible moderation and comment sections, and be skeptical of anything that asks for unusual permissions or comes bundled with unrelated software.
+
+| Red flag | Risk level | What to do |
+|---|---|---|
+| No author information or history | Medium | Look for an established mirror before downloading |
+| Requests to disable security software | High | Skip it entirely |
+| Bundled installers you did not ask for | High | Cancel the install and report it |
+| No changelog or version notes | Low to medium | Treat it as experimental |
+| Aggressive paywalls for a repackaged mod | Medium | Find the creator's original release |
+
+Credit matters too. If a mod lists other creators' work, respect those terms. Reposting someone else's files without permission is one of the quickest ways to sour a community, and it discourages the people making the content you enjoy. For a broader look at how established modding hubs handle hosting, permissions, and moderation, [Nexus Mods](https://www.nexusmods.com/) is a useful reference point for community standards.
+
+Finally, share what you learn. A short post explaining how you fixed a conflict helps the next player far more than a complaint does.
+
+## FAQ
+
+**Are Starlathe mods safe to install?**
+
+The vast majority are, provided you download from moderated sources and read what you are installing. The real risks are unofficial bundles, installers that ask for excessive permissions, and files with no author history. Back up your saves before you start, and you can experiment with very little downside.
+
+**Will Starlathe mods still work after an update?**
+
+Sometimes, sometimes not. Updates can change the systems mods rely on, so check the mod's page for a compatibility note before updating your game. If a critical mod is not ready, it is usually safer to wait than to update and lose access to a save you care about.
+
+**Can I remove a mod after I have been playing with it?**
+
+Often yes, but not always. Mods that only change visuals usually remove cleanly. Mods that add items, areas, or systems can leave a save dependent on them. Restore a backup if you are unsure, and remove mods one at a time so you can tell immediately if something breaks.
+
+**Where should I look for reliable Starlathe mods?**
+
+Start with community-maintained hubs and the creators' own pages, where you can see changelogs, comments, and dependency lists. Word of mouth within the community is a strong filter too — if experienced players keep recommending the same source, that is usually a good sign.
+
+Modding Starlathe is at its best when it stays simple: pick mods that match what you actually want, install them slowly, keep backups, and give credit where it is due. Do that, and the community's creativity becomes the best content expansion you will ever get.

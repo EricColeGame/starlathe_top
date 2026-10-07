@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "progression": "Progression",
+    "updates": "Updates",
+    "community": "Community",
+    "controls": "Controls"
   },
   "home": {
     "meta": {
@@ -461,7 +468,34 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Starlathe Beginner Guide",
+    "overviewDescription": "New to Starlathe? Start with our beginner walkthroughs, first impressions, and review coverage to learn trading, mining, and how to fly your first ship."
+  },
+  "mechanics": {
+    "overviewTitle": "Starlathe Gameplay & Mechanics",
+    "overviewDescription": "Understand how Starlathe plays: galaxy generation, simulation systems, exploration loops, and the core features that shape every session."
+  },
+  "characters": {
+    "overviewTitle": "Starlathe Characters & Lifeforms",
+    "overviewDescription": "Meet the characters, alien lifeforms, and creatures you will encounter while exploring the Starlathe galaxy."
+  },
+  "progression": {
+    "overviewTitle": "Starlathe Progression & Missions",
+    "overviewDescription": "Follow the Starlathe story, missions, and quests, and plan your progression path from the first contract to the endgame."
+  },
+  "updates": {
+    "overviewTitle": "Starlathe Updates & News",
+    "overviewDescription": "Release dates, patch notes, Steam news, and roadmap updates for Starlathe, gathered in one place."
+  },
+  "community": {
+    "overviewTitle": "Starlathe Community",
+    "overviewDescription": "Join the Starlathe community through Reddit, Discord, mods, and trailers, and find the best places to talk with other commanders."
+  },
+  "controls": {
+    "overviewTitle": "Starlathe Controls & Settings",
+    "overviewDescription": "Default Starlathe keybinds, controller support, and settings so you can tune your ship and cockpit to your liking."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -490,12 +524,11 @@
     "playGame": "Play Starlathe on Steam",
     "officialDiscord": "Steam Community",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "Fleet Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Character Guides",
+    "mechanicsGuides": "Mechanics Guides",
+    "progressionGuides": "Progression Guides"
   }
 }

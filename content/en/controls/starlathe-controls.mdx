@@ -1,0 +1,134 @@
+export const metadata = {
+  title: "Starlathe Controls Explained: Keybinds, Gamepad Setup, and Remapping Tips",
+  description: "A complete guide to Starlathe controls: how movement, camera, combat, and menu inputs work, how to remap them, and how to fix common issues.",
+  category: "controls",
+  date: "2026-10-07",
+}
+
+## Why Your Starlathe Controls Deserve a Second Look
+
+Every failed run, missed dodge, and wasted cooldown traces back to the same root cause: your inputs. Starlathe controls are the most direct line between what you intend and what your character actually does, and no build, loadout, or strategy can compensate for a scheme that fights your hands. Tuning them is the cheapest performance upgrade available — it costs nothing but a few minutes in the settings menu.
+
+Defaults exist to get you playing, not to make you good. Because Starlathe controls ship tuned for the widest possible audience, they rarely match how any individual player actually moves, aims, and reacts. This guide breaks down how the control layers fit together, how to choose between keyboard and mouse or a gamepad, how to remap safely, and how to fix the issues players report most often.
+
+One important note up front: exact default bindings can shift between platforms and patches. Treat every table below as a map of *categories*, not gospel — always confirm the live values in your own options menu before you rebuild your muscle memory around them.
+
+## The Layers Inside Every Starlathe Control Scheme
+
+Whatever your platform, a control scheme is really five separate systems stacked on top of each other. Problems almost always live in one layer, not all of them — which is why "the controls feel bad" is such a vague complaint until you isolate the culprit.
+
+| Layer | What it handles | Where it's configured | Why it matters |
+|---|---|---|---|
+| Movement | Directional input, sprinting, crouching, dodging | Main bindings menu | Slow or awkward movement compounds into every other action |
+| Camera | Look direction, aim sensitivity, lock-on | Camera / sensitivity menu | Bad camera feel reads as "lag" even when latency is fine |
+| Combat & interaction | Attacks, abilities, pickups, context prompts | Main bindings menu | Overloaded buttons cause accidental inputs under pressure |
+| Menus & inventory | Pausing, map, quest log, quick slots | Interface settings | Slow menu access costs real time in tense moments |
+| Accessibility | Remapping, toggles, hold-vs-press, color and HUD aids | Accessibility menu | Often the fastest fix for pain, fatigue, or input errors |
+
+A useful diagnostic habit: when something feels wrong, ask which layer it belongs to. If your character moves fine but the camera swings too far, you have a camera-layer problem, not a movement problem — and you can fix it in seconds instead of rebuilding your whole layout.
+
+## Movement, Camera, and Combat: What Each Category Does
+
+### Movement and traversal
+Movement binds are the ones you touch constantly, so they should be the least interesting part of your setup. If you have to think about a traversal input, it belongs somewhere else. Look for any action you press more than once every few seconds and make sure it sits under a finger that is already resting nearby.
+
+### Camera and aiming
+Camera feel is where most Starlathe controls complaints originate. Two settings do the heavy lifting:
+- **Look sensitivity** — how far the camera travels per unit of input.
+- **Dead zone** — how much stick or mouse movement is ignored before the camera responds.
+
+A dead zone that is too large makes fine aiming feel mushy. One that is too small causes drift. Community reports consistently describe small, incremental adjustments as the winning approach — change one value, play for ten minutes, then decide.
+
+### Combat and interaction
+The most common mistake here is stacking too many actions on one input. Context prompts are convenient until the game guesses wrong and you swing at a wall instead of opening a door. If your layout allows it, separate "confirm/interact" from anything offensive.
+
+| Category | Typical bindings | Frequent conflict | Practical fix |
+|---|---|---|---|
+| Movement | Forward, back, strafe, sprint, crouch | Sprint and dodge sharing a key | Move dodge to a dedicated input |
+| Camera | Look, recenter, lock-on | Lock-on clashing with aim toggle | Bind lock-on to a shoulder button or side mouse button |
+| Combat | Light attack, heavy attack, ability slots | Abilities crowding attack keys | Spread abilities across reachable, unused keys |
+| Interaction | Interact, pickup, revive | Interact overlapping attack | Isolate interact on its own input |
+| Utility | Map, inventory, quick slot | Menu keys far from the left hand | Move frequently used menus closer |
+
+## Keyboard and Mouse vs. Gamepad: Which Fits You?
+
+There is no universal winner. The right answer depends on how much precision you need versus how much comfort you want over long sessions.
+
+| Factor | Keyboard & mouse | Gamepad | Hybrid setups |
+|---|---|---|---|
+| Camera precision | Highest — direct pointing | Good with tuned sensitivity | Mouse for camera, pad for movement |
+| Comfort over hours | Moderate; wrist and shoulder strain possible | Generally easier on the hands | Depends on the split |
+| Movement nuance | Digital, though analog keys help | Analog by default | Analog movement with mouse aim |
+| Remapping flexibility | Very high — many spare keys | Limited to available buttons | Highest, but more setup time |
+| Best for | Precise aiming and fast menu work | Long sessions and relaxed play | Players who want both |
+
+Player experience suggests that most people who bounce between the two never fully commit to either, which keeps both sets of muscle memory half-formed. Pick one as your primary, set it up properly, and only switch when a specific task demands it.
+
+If you want to go deeper on controller configuration at the system level, Steam's official controller configuration hub is the authoritative reference for how remapping and per-game profiles work outside the game itself.
+
+## How to Remap Your Starlathe Controls Step by Step
+
+Remapping is not a random shuffle. Work through it in order, and change one thing at a time.
+
+| Step | Action | What to verify |
+|---|---|---|
+| 1 | Write down your current bindings | You have a baseline to return to |
+| 2 | Identify your three most-used actions | Movement, primary attack, camera control |
+| 3 | Place those on your strongest, most comfortable inputs | No stretching or reaching |
+| 4 | Assign secondary actions to less convenient keys | Sprint, inventory, map |
+| 5 | Remove all duplicate and conflicting bindings | Nothing is bound twice by accident |
+| 6 | Test in a low-pressure area | No accidental inputs during simple movement |
+| 7 | Play one full session before changing anything else | You gave the new layout time to settle |
+| 8 | Save or export the profile if the game allows it | You can restore it after a reset or update |
+
+A few practical rules that save time:
+- **Never bind two actions you use together to the same finger.** Sprint plus dodge on one key is a coin flip under pressure.
+- **Keep escape and menu functions reachable** so you can bail out quickly.
+- **Rebind before you re-tune sensitivity.** Fixing layout first means you only have to adjust sensitivity once.
+- **Give any new layout at least an hour.** Fresh bindings always feel wrong for the first twenty minutes.
+
+## Sensitivity, Accessibility, and Comfort Tuning
+
+Once your layout is settled, tuning turns a functional setup into a comfortable one. This is also where accessibility options do the most good — many of them are not just accommodations, they are straightforward quality-of-life improvements.
+
+| Setting | What it changes | Who benefits most | Starting approach |
+|---|---|---|---|
+| Look sensitivity | Camera speed per input | Everyone | Start near default, adjust in small steps |
+| Dead zone | Ignored input before response | Stick users | Reduce until drift appears, then back off slightly |
+| Hold vs. toggle | Whether an action needs a hold | Players with hand fatigue | Toggle for sprint, crouch, and aim |
+| Aim assist strength | How much the game corrects aim | Pad users | Reduce if it fights your intent |
+| HUD scale and contrast | On-screen readability | Players on TVs or small screens | Increase until readable at a glance |
+| Subtitles and cues | Audio and visual feedback | Players in noisy environments | Enable visual cues for critical events |
+
+Two habits make this process much faster. First, change only one value per session — stacking changes makes it impossible to know what helped. Second, note your final numbers somewhere. Settings resets after updates are rare but genuinely annoying, and having a record means you are back to normal in two minutes.
+
+## Troubleshooting Common Starlathe Controls Problems
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Inputs feel delayed | Display latency or post-processing | Enable game mode on your TV, reduce heavy effects |
+| Camera drifts on its own | Dead zone too small or stick wear | Raise dead zone slightly, test another controller |
+| Buttons do nothing | Binding overwritten or profile not loaded | Recheck the bindings menu and active profile |
+| Controller not detected | Connection or driver issue | Reconnect, restart the game, check system-level settings |
+| Wrong prompts on screen | Input device mismatch | Switch to the device you want, or restart |
+| Actions fire unintentionally | Duplicate or overloaded bindings | Clear conflicts in the bindings menu |
+| Layout reset after an update | Profile not saved externally | Reapply and back up the profile if possible |
+
+If a problem persists after these steps, the issue is usually outside the game — a cable, a battery, a system-level remapping layer, or an overlay intercepting input. Test with overlays disabled and a wired connection before assuming the game itself is at fault.
+
+## FAQ
+
+**Do I need to change the default Starlathe controls at all?**
+Not necessarily. If you are comfortable and accurate with the defaults, leave them alone. Remapping is a tool for solving specific problems — reach, conflicts, fatigue — not a requirement.
+
+**Should I use keyboard and mouse or a gamepad?**
+Use whichever you can play comfortably for long stretches. Keyboard and mouse generally wins on camera precision and menu speed; a gamepad usually wins on comfort and analog movement. Both are viable once tuned.
+
+**How long should I test a new layout before giving up?**
+Give it at least a full hour of play. New bindings feel awkward at first because they are unfamiliar, not because they are wrong. If a layout still causes errors after two sessions, change it again.
+
+**Can I fix Starlathe controls problems without reinstalling?**
+Almost always, yes. Verify your bindings, check the active input device, adjust dead zone and sensitivity, and test with overlays disabled. Most reported issues trace back to configuration rather than the game files.
+
+**Where can I find the exact default bindings for my platform?**
+Check the in-game bindings menu first — it always reflects the live values for your current build and platform, which is more reliable than any third-party list.

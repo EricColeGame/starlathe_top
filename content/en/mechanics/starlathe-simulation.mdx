@@ -1,0 +1,114 @@
+export const metadata = {
+  title: "Starlathe Simulation Mechanics Explained: Precision Crafting Tips for Space Engineers",
+  description: "A complete guide to starlathe simulation mechanics — spindle speed, feed rate, tool pressure, thermal control, and precision tips for cleaner parts.",
+  category: "mechanics",
+  date: "2026-10-07",
+}
+
+## Why Starlathe Simulation Mechanics Decide Everything
+
+A starlathe simulation is where raw stock becomes a flight-ready part — and where most players quietly lose hours of progress. Get the mechanics right and every cut lands inside tolerance; get them wrong and you spend the session chasing chatter, heat, and scrapped material. This guide breaks down the starlathe simulation the way an experienced operator thinks about it: what the model actually tracks, which numbers matter, and how to turn a rough blank into a precise component without guesswork.
+
+Why does it matter so much? Because a lathe is a feedback loop. Every variable you change — rotational speed, tool pressure, feed rate, cooling — pushes the other variables somewhere new. Understanding the loop is the difference between a part that passes inspection and one that fails on the test bench.
+
+Too many players treat the lathe as a single "craft" button with a progress bar. That approach works until the simulation asks for a tolerance you cannot hit, a finish you cannot repeat, or a material that punishes sloppy technique. Once you understand the underlying mechanics, the same interface stops feeling random and starts feeling predictable.
+
+## Core Systems Inside a Starlathe Simulation
+
+A well-built starlathe simulation is not one physics model — it is several smaller models running in parallel and quietly arguing with each other. Knowing which subsystem is complaining is the fastest way to diagnose a bad cut.
+
+| Subsystem | What It Models | Why It Matters |
+|---|---|---|
+| Spindle and rotation | Rotational speed, torque, runout, inertia | Sets surface speed and overall stability |
+| Tool engagement | Depth of cut, feed per revolution, contact geometry | Controls chip load, finish, and tool life |
+| Thermal model | Heat from friction and plastic deformation | Drives expansion, warping, and edge wear |
+| Material removal | Stock-to-part geometry and chip evacuation | Determines pass count and dimensional accuracy |
+| Metrology | Tolerances, surface finish, runout verification | Confirms whether the part is actually acceptable |
+
+If you have never operated a physical lathe, the underlying principles are worth a quick read — the [fundamentals of lathe machining on Wikipedia](https://en.wikipedia.org/wiki/Lathe) cover turning, facing, and boring in plain language, and the same concepts map directly onto the simulation.
+
+### Rotation, Tool Pressure, and the Cutting Window
+
+Surface speed is the single most influential number in the model. It is a function of diameter and rotational speed, which means the "correct" RPM changes as your workpiece gets smaller. Beginners set one speed and leave it; experienced operators adjust continuously as the diameter shrinks.
+
+Tool pressure is the second half of the equation. Too little pressure and the tool rubs instead of cutting, work-hardening the surface and ruining the finish. Too much and the workpiece deflects away from the tool, producing a tapered or oversized part. The sweet spot — often called the cutting window — is narrower than most people expect.
+
+### Thermal Load and Material Behavior
+
+Heat is the mechanic that punishes impatience. Continuous cutting generates friction at the tool tip, and that heat has to go somewhere. In the simulation, it typically shows up as gradual dimensional drift, accelerated tool wear, and occasionally a visible discoloration on the finished surface.
+
+Community reports consistently point to the same lesson: short, deliberate passes with adequate cooling beat long, aggressive passes every time. A part machined slowly at a stable temperature usually measures closer to spec than one rushed through at high speed.
+
+## Parameter Reference: Speeds, Feeds, and Tolerances
+
+The table below describes general starting principles rather than fixed values. Treat every number as a direction to move in, then tune it against the feedback your particular build gives you.
+
+| Parameter | Direction to Start | If Too Low | If Too High |
+|---|---|---|---|
+| Surface speed | Moderate for most metals | Rubbing, poor finish, work hardening | Rapid edge wear, excess heat |
+| Feed per revolution | Small but consistent | Chatter, glazed surface | Rough finish, risk of tool breakage |
+| Depth of cut | Shallow on finishing passes | Extra passes, wasted time | Deflection, vibration, taper |
+| Cooling / dwell time | Match to material sensitivity | Overheating, dimensional drift | Thermal shock on hard materials |
+| Overhang | As short as the setup allows | — | Flex, chatter, poor concentricity |
+
+Material choice reshapes all of those numbers. What works beautifully on a soft structural alloy will destroy an edge on a hardened or refractory workpiece.
+
+| Material Class | Machinability | Thermal Sensitivity | Operator Note |
+|---|---|---|---|
+| Soft structural alloys | High | Low | Forgiving; ideal for learning the controls |
+| Medium-carbon steels | Moderate | Moderate | Rewards consistent feed and sharp tools |
+| Hardened alloys | Low | High | Slow speeds, maximum rigidity, light passes |
+| Composite laminates | Variable | Moderate | Expect edge wear and messy chip evacuation |
+| Exotic / refractory stock | Very low | Very high | Coolant discipline is non-negotiable |
+
+## Step-by-Step Workflow for a Clean First Cut
+
+The order of operations matters as much as the individual settings. Skipping a setup step does not save time — it moves the failure later, where it costs more.
+
+| Step | Action | Success Check |
+|---|---|---|
+| 1 | Inspect and mount the stock | Minimal runout at low speed |
+| 2 | Face the reference end | Flat, square face with no burr |
+| 3 | Establish the working diameter | Consistent measurement on repeat passes |
+| 4 | Take roughing passes | Steady sound, no rhythmic vibration |
+| 5 | Take the finishing pass | Target surface finish achieved |
+| 6 | Verify and log the part | Dimensions inside tolerance band |
+
+A few habits separate clean runs from messy ones:
+
+- **Measure twice, cut once.** In a starlathe simulation, measurement is free — there is no excuse for guessing.
+- **Change one variable at a time.** If you adjust speed, feed, and depth together, you learn nothing about which one fixed the problem.
+- **Listen to the cut.** Chatter, squeal, and silence all carry information the readouts may not show.
+- **Log your successful settings.** A personal parameter sheet is worth more than any generic chart.
+- **Stop early when something feels wrong.** Backing out of a bad pass costs seconds; scrapping a part costs the whole session.
+
+## Common Mistakes, Symptoms, and Fixes
+
+Most failures in a starlathe simulation fall into a small handful of categories. The trick is recognizing the symptom before it turns into a scrapped component.
+
+| Symptom | Likely Cause | Fix |
+|---|---|---|
+| High-pitched squeal | Speed too high, tool rubbing | Reduce rotational speed, increase feed slightly |
+| Rhythmic chatter | Workpiece deflection or long overhang | Shorten overhang, add support, reduce depth of cut |
+| Burning smell or discoloration | Insufficient cooling or excessive speed | Add cooling, slow down, lighten the pass |
+| Part comes out tapered | Misalignment between centers | Realign the setup and re-check the reference |
+| Sudden tool breakage | Depth of cut beyond tool capacity | Reduce engagement, verify rigidity first |
+| Inconsistent finish | Varying feed or intermittent cutting | Hold feed steady through the entire pass |
+
+For advanced operators, the next step is chatter suppression through tuning rather than brute force. Slightly varying spindle speed, stiffening the workholding, and matching the tool's natural frequency to the cut can all widen the stable window considerably. Micro-tolerance work follows the same logic: rigidity first, temperature second, technique third.
+
+It is also worth remembering that a starlathe simulation rewards patience over raw inputs. The players who consistently produce flight-ready parts are rarely the ones with the fastest hands — they are the ones who understand what the model is doing and let it work.
+
+## FAQ
+
+**What exactly is a starlathe simulation?**
+It is a mechanics-driven turning simulation in which a rotating workpiece is shaped by a controlled cutting tool. The model tracks rotational speed, tool engagement, thermal load, material removal, and dimensional accuracy, then produces a part whose quality depends on how well you manage those interacting variables.
+
+**Do I need real machining knowledge to do well?**
+No, but the principles transfer directly. Understanding surface speed, feed rate, depth of cut, and rigidity will shorten your learning curve dramatically, because a starlathe simulation is built on the same physical relationships a real lathe follows.
+
+**Why does my part keep coming out tapered or oversized?**
+Taper almost always traces back to deflection or misalignment. Shorten the overhang, verify your setup is centered, and take lighter passes. If the part is oversized rather than tapered, you are likely stopping the finishing pass too early — measure after every pass, not at the end.
+
+**How can I practice without wasting material?**
+Run scrap stock or low-value material through the full workflow: mount, face, establish diameter, rough, finish, and measure. Practicing the sequence matters more than practicing the material. Once your measurements are repeatable, move up to the expensive stock with confidence.

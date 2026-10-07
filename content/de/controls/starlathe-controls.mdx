@@ -1,0 +1,134 @@
+export const metadata = {
+  title: "Starlathe-Steuerung erklärt: Tastenbelegungen, Gamepad-Setup und Tipps zum Neubelegen",
+  description: "Ein vollständiger Leitfaden zur Starlathe-Steuerung: wie Bewegung, Kamera, Kampf und Menüeingaben funktionieren, wie man sie neu belegt und wie man häufige Probleme behebt.",
+  category: "controls",
+  date: "2026-10-07",
+}
+
+## Warum deine Starlathe-Steuerung einen zweiten Blick verdient
+
+Jeder gescheiterte Run, jeder verpasste Ausweichrolle und jede verschwendete Abklingzeit führen zur selben Grundursache zurück: deine Eingaben. Die Starlathe-Steuerung ist die direkteste Verbindung zwischen dem, was du beabsichtigst, und dem, was dein Charakter tatsächlich tut, und kein Build, keine Ausrüstung und keine Strategie kann ein Schema ausgleichen, das gegen deine Hände arbeitet. Sie abzustimmen ist das günstigste Leistungs-Upgrade, das es gibt – es kostet nichts außer ein paar Minuten im Einstellungsmenü.
+
+Standardeinstellungen existieren, damit du spielen kannst, nicht damit du gut wirst. Weil die Starlathe-Steuerung für die breitestmögliche Zielgruppe abgestimmt ausgeliefert wird, passt sie selten dazu, wie ein einzelner Spieler sich tatsächlich bewegt, zielt und reagiert. Dieser Leitfaden erläutert, wie die Steuerungsebenen zusammenwirken, wie du zwischen Tastatur und Maus oder einem Gamepad wählst, wie du sicher neu belegst und wie du die am häufigsten gemeldeten Probleme behebst.
+
+Ein wichtiger Hinweis vorab: Genaue Standardbelegungen können sich zwischen Plattformen und Patches ändern. Betrachte jede Tabelle unten als eine Karte von *Kategorien*, nicht als Evangelium – bestätige immer die aktuellen Werte in deinem eigenen Optionsmenü, bevor du dein Muskelgedächtnis darauf neu aufbaust.
+
+## Die Ebenen in jedem Starlathe-Steuerungsschema
+
+Unabhängig von deiner Plattform ist ein Steuerungsschema wirklich fünf separate Systeme, die übereinander gestapelt sind. Probleme liegen fast immer in einer Ebene, nicht in allen – weshalb "die Steuerung fühlt sich schlecht an" eine so vage Beschwerde ist, bis du den Übeltäter isolierst.
+
+| Ebene | Was sie steuert | Wo sie konfiguriert wird | Warum sie wichtig ist |
+|---|---|---|---|
+| Bewegung | Richtungseingabe, Sprinten, Ducken, Ausweichen | Hauptmenü für Tastenbelegungen | Langsame oder ungeschickte Bewegung wirkt sich auf jede andere Aktion aus |
+| Kamera | Blickrichtung, Zielempfindlichkeit, Lock-on | Kamera-/Empfindlichkeitsmenü | Ein schlechtes Kameragefühl wirkt wie "Lag", selbst wenn die Latenz in Ordnung ist |
+| Kampf & Interaktion | Angriffe, Fähigkeiten, Aufsammeln, Kontexthinweise | Hauptmenü für Tastenbelegungen | Überladene Tasten verursachen versehentliche Eingaben unter Druck |
+| Menüs & Inventar | Pausieren, Karte, Questlog, Schnellslots | Interface-Einstellungen | Langsamer Menüzugriff kostet echte Zeit in angespannten Momenten |
+| Barrierefreiheit | Neubelegen, Umschalter, Halten vs. Drücken, Farb- und HUD-Hilfen | Barrierefreiheitsmenü | Oft die schnellste Lösung bei Schmerzen, Ermüdung oder Eingabefehlern |
+
+Eine nützliche diagnostische Gewohnheit: Wenn sich etwas falsch anfühlt, frage dich, zu welcher Ebene es gehört. Wenn sich dein Charakter gut bewegt, aber die Kamera zu weit schwenkt, hast du ein Problem in der Kamera-Ebene, nicht in der Bewegungs-Ebene – und du kannst es in Sekunden beheben, statt dein ganzes Layout neu aufzubauen.
+
+## Bewegung, Kamera und Kampf: Was jede Kategorie tut
+
+### Bewegung und Fortbewegung
+Bewegungsbelegungen sind die, die du ständig berührst, also sollten sie der uninteressanteste Teil deines Setups sein. Wenn du über eine Fortbewegungseingabe nachdenken musst, gehört sie woanders hin. Suche nach jeder Aktion, die du öfter als alle paar Sekunden drückst, und stelle sicher, dass sie unter einem Finger liegt, der ohnehin schon in der Nähe ruht.
+
+### Kamera und Zielen
+Das Kameragefühl ist die Quelle der meisten Beschwerden zur Starlathe-Steuerung. Zwei Einstellungen leisten die Schwerarbeit:
+- **Blickempfindlichkeit** – wie weit sich die Kamera pro Eingabeeinheit bewegt.
+- **Deadzone** – wie viel Stick- oder Mausbewegung ignoriert wird, bevor die Kamera reagiert.
+
+Eine zu große Deadzone lässt feines Zielen schwammig wirken. Eine zu kleine verursacht Drift. Community-Berichte beschreiben durchgängig kleine, schrittweise Anpassungen als den erfolgreichen Ansatz – ändere einen Wert, spiele zehn Minuten, dann entscheide.
+
+### Kampf und Interaktion
+Der häufigste Fehler hier ist, zu viele Aktionen auf eine Eingabe zu stapeln. Kontexthinweise sind praktisch, bis das Spiel falsch rät und du gegen eine Wand schlägst, statt eine Tür zu öffnen. Wenn dein Layout es zulässt, trenne "Bestätigen/Interagieren" von allem Offensiven.
+
+| Kategorie | Typische Belegungen | Häufiger Konflikt | Praktische Lösung |
+|---|---|---|---|
+| Bewegung | Vorwärts, Rückwärts, Seitwärts, Sprinten, Ducken | Sprinten und Ausweichen auf derselben Taste | Ausweichen auf eine eigene Eingabe legen |
+| Kamera | Umsehen, Zentrieren, Lock-on | Lock-on kollidiert mit Ziel-Umschalten | Lock-on auf eine Schultertaste oder Seitentaste der Maus legen |
+| Kampf | Leichter Angriff, schwerer Angriff, Fähigkeits-Slots | Fähigkeiten bedrängen Angriffstasten | Fähigkeiten auf erreichbare, ungenutzte Tasten verteilen |
+| Interaktion | Interagieren, Aufsammeln, Wiederbeleben | Interagieren überlappt mit Angriff | Interagieren auf eine eigene Eingabe isolieren |
+| Utility | Karte, Inventar, Schnellslot | Menütasten weit von der linken Hand entfernt | Häufig genutzte Menüs näher heranrücken |
+
+## Tastatur und Maus vs. Gamepad: Was passt zu dir?
+
+Es gibt keinen allgemeinen Sieger. Die richtige Antwort hängt davon ab, wie viel Präzision du brauchst gegenüber wie viel Komfort du über lange Sitzungen willst.
+
+| Faktor | Tastatur & Maus | Gamepad | Hybrid-Setups |
+|---|---|---|---|
+| Kamera-Präzision | Am höchsten – direktes Zeigen | Gut mit abgestimmter Empfindlichkeit | Maus für Kamera, Pad für Bewegung |
+| Komfort über Stunden | Mittel; Handgelenk- und Schulterbelastung möglich | Allgemein schonender für die Hände | Hängt von der Aufteilung ab |
+| Bewegungsnuancen | Digital, obwohl analoge Tasten helfen | Standardmäßig analog | Analoge Bewegung mit Mauszielen |
+| Flexibilität beim Neubelegen | Sehr hoch – viele freie Tasten | Begrenzt auf vorhandene Tasten | Am höchsten, aber mehr Einrichtungszeit |
+| Am besten für | Präzises Zielen und schnelle Menüarbeit | Lange Sitzungen und entspanntes Spielen | Spieler, die beides wollen |
+
+Spielerfahrung legt nahe, dass die meisten, die zwischen beidem hin- und herwechseln, sich nie ganz für eines entscheiden, wodurch beide Muskelgedächtnisse halb ausgebildet bleiben. Wähle eines als dein primäres, richte es richtig ein und wechsle nur, wenn eine bestimmte Aufgabe es erfordert.
+
+Wenn du tiefer in die Controller-Konfiguration auf Systemebene einsteigen willst, ist Steams offizieller Controller-Konfigurations-Hub die maßgebliche Referenz dafür, wie Neubelegung und spielspezifische Profile außerhalb des Spiels funktionieren.
+
+## So belegst du deine Starlathe-Steuerung Schritt für Schritt neu
+
+Neubelegen ist kein zufälliges Durcheinanderwürfeln. Arbeite es der Reihe nach durch und ändere immer nur eine Sache.
+
+| Schritt | Aktion | Was zu prüfen ist |
+|---|---|---|
+| 1 | Schreibe deine aktuellen Belegungen auf | Du hast eine Ausgangsbasis, zu der du zurückkehren kannst |
+| 2 | Identifiziere deine drei meistgenutzten Aktionen | Bewegung, Primärangriff, Kamerasteuerung |
+| 3 | Lege diese auf deine stärksten, bequemsten Eingaben | Kein Strecken oder Greifen |
+| 4 | Weise sekundäre Aktionen weniger bequemen Tasten zu | Sprinten, Inventar, Karte |
+| 5 | Entferne alle doppelten und konfliktbehafteten Belegungen | Nichts ist versehentlich doppelt belegt |
+| 6 | Teste in einem Bereich mit geringem Druck | Keine versehentlichen Eingaben bei einfacher Bewegung |
+| 7 | Spiele eine volle Sitzung, bevor du etwas anderes änderst | Du hast dem neuen Layout Zeit gegeben, sich zu setzen |
+| 8 | Speichere oder exportiere das Profil, wenn das Spiel es erlaubt | Du kannst es nach einem Reset oder Update wiederherstellen |
+
+Ein paar praktische Regeln, die Zeit sparen:
+- **Belege niemals zwei Aktionen, die du zusammen verwendest, auf denselben Finger.** Sprinten plus Ausweichen auf einer Taste ist unter Druck ein Münzwurf.
+- **Halte Escape- und Menüfunktionen erreichbar**, damit du schnell aussteigen kannst.
+- **Belege neu, bevor du die Empfindlichkeit neu abstimmst.** Wenn du zuerst das Layout reparierst, musst du die Empfindlichkeit nur einmal anpassen.
+- **Gib jedem neuen Layout mindestens eine Stunde.** Frische Belegungen fühlen sich in den ersten zwanzig Minuten immer falsch an.
+
+## Empfindlichkeit, Barrierefreiheit und Komfort abstimmen
+
+Sobald dein Layout feststeht, macht die Abstimmung aus einem funktionalen Setup ein komfortables. Hier leisten auch Barrierefreiheitsoptionen am meisten Gutes – viele von ihnen sind nicht nur Hilfen, sondern unkomplizierte Verbesserungen der Lebensqualität.
+
+| Einstellung | Was sie ändert | Wer am meisten profitiert | Erste Vorgehensweise |
+|---|---|---|---|
+| Blickempfindlichkeit | Kamerageschwindigkeit pro Eingabe | Alle | Nahe am Standard beginnen, in kleinen Schritten anpassen |
+| Deadzone | Ignorierte Eingabe vor der Reaktion | Stick-Nutzer | Reduzieren, bis Drift auftritt, dann leicht zurückgehen |
+| Halten vs. Umschalten | Ob eine Aktion gehalten werden muss | Spieler mit Handermüdung | Umschalten für Sprinten, Ducken und Zielen |
+| Stärke der Zielhilfe | Wie stark das Spiel das Zielen korrigiert | Pad-Nutzer | Reduzieren, wenn sie gegen deine Absicht arbeitet |
+| HUD-Größe und Kontrast | Lesbarkeit auf dem Bildschirm | Spieler an TVs oder kleinen Bildschirmen | Erhöhen, bis es auf einen Blick lesbar ist |
+| Untertitel und Hinweise | Audio- und visuelles Feedback | Spieler in lauten Umgebungen | Visuelle Hinweise für kritische Ereignisse aktivieren |
+
+Zwei Gewohnheiten machen diesen Prozess viel schneller. Erstens: Ändere pro Sitzung nur einen Wert – gestapelte Änderungen machen es unmöglich zu wissen, was geholfen hat. Zweitens: Notiere deine endgültigen Werte irgendwo. Einstellungs-Resets nach Updates sind selten, aber wirklich ärgerlich, und mit einer Aufzeichnung bist du in zwei Minuten wieder beim Normalzustand.
+
+## Fehlerbehebung bei häufigen Starlathe-Steuerungsproblemen
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---|---|---|
+| Eingaben fühlen sich verzögert an | Anzeigelatenz oder Post-Processing | Aktiviere den Spielmodus an deinem TV, reduziere aufwendige Effekte |
+| Kamera driftet von allein | Deadzone zu klein oder Stickverschleiß | Deadzone leicht erhöhen, anderen Controller testen |
+| Tasten tun nichts | Belegung überschrieben oder Profil nicht geladen | Tastenbelegungsmenü und aktives Profil erneut prüfen |
+| Controller wird nicht erkannt | Verbindungs- oder Treiberproblem | Neu verbinden, Spiel neu starten, systemweite Einstellungen prüfen |
+| Falsche Hinweise auf dem Bildschirm | Nicht übereinstimmendes Eingabegerät | Zum gewünschten Gerät wechseln oder neu starten |
+| Aktionen werden ungewollt ausgelöst | Doppelte oder überladene Belegungen | Konflikte im Tastenbelegungsmenü beseitigen |
+| Layout nach einem Update zurückgesetzt | Profil nicht extern gespeichert | Erneut anwenden und das Profil nach Möglichkeit sichern |
+
+Wenn ein Problem nach diesen Schritten weiterhin besteht, liegt die Ursache meist außerhalb des Spiels – ein Kabel, ein Akku, eine systemweite Neubelegungsebene oder ein Overlay, das Eingaben abfängt. Teste mit deaktivierten Overlays und einer kabelgebundenen Verbindung, bevor du annimmst, dass das Spiel selbst schuld ist.
+
+## FAQ
+
+**Muss ich die standardmäßige Starlathe-Steuerung überhaupt ändern?**
+Nicht unbedingt. Wenn du mit den Standardeinstellungen komfortabel und präzise spielst, lass sie in Ruhe. Neubelegen ist ein Werkzeug zur Lösung konkreter Probleme – Reichweite, Konflikte, Ermüdung – keine Pflicht.
+
+**Sollte ich Tastatur und Maus oder ein Gamepad verwenden?**
+Verwende das, womit du über lange Strecken komfortabel spielen kannst. Tastatur und Maus gewinnen im Allgemeinen bei Kamera-Präzision und Menügeschwindigkeit; ein Gamepad gewinnt meist bei Komfort und analoger Bewegung. Beides ist machbar, sobald es abgestimmt ist.
+
+**Wie lange sollte ich ein neues Layout testen, bevor ich aufgebe?**
+Gib ihm mindestens eine volle Stunde Spielzeit. Neue Belegungen fühlen sich anfangs ungewohnt an, weil sie unbekannt sind, nicht weil sie falsch sind. Wenn ein Layout auch nach zwei Sitzungen noch Fehler verursacht, ändere es erneut.
+
+**Kann ich Starlathe-Steuerungsprobleme beheben, ohne neu zu installieren?**
+Fast immer, ja. Überprüfe deine Belegungen, prüfe das aktive Eingabegerät, passe Deadzone und Empfindlichkeit an und teste mit deaktivierten Overlays. Die meisten gemeldeten Probleme lassen sich auf die Konfiguration zurückführen, nicht auf die Spieldateien.
+
+**Wo finde ich die genauen Standardbelegungen für meine Plattform?**
+Prüfe zuerst das Tastenbelegungsmenü im Spiel – es spiegelt immer die aktuellen Werte für deinen aktuellen Build und deine Plattform wider, was zuverlässiger ist als jede Liste von Drittanbietern.
